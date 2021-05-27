@@ -83,7 +83,7 @@ PlayerSettings:
   hideHomeButton: 0
   submitAnalytics: 1
   usePlayerLog: 1
-  autoStreaming: 1
+  autoStreaming: 0
   useAnimationStreaming: 0
   useFontStreaming: 1
   autoStreamingId: /v1/buckets/83abc24e-44bd-4296-bcc7-082966b440e9/release_by_badge/01/content/AS%252F
