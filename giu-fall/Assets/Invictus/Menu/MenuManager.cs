@@ -71,8 +71,9 @@ namespace MenuGUI
             if (startMenu >= 0)
                 Show(startMenu);
 
-			if(PlayerPrefs.GetInt("GDPR_" + "gdpr" + "_enable") == 0)
-			GDPR.Instance.ShowPopup("gdpr", "用户定制广告显示", "为了改进此应用，并向您展示相关广告，《永不言弃·掉落》将收集用户数据和设备信息，并与合作伙伴共享。使用本应用即表示您同意本应用的服务条款和隐私政策。");
+            //显示隐私协议
+			//if(PlayerPrefs.GetInt("GDPR_" + "gdpr" + "_enable") == 0)
+			//GDPR.Instance.ShowPopup("gdpr", "用户定制广告显示", "为了改进此应用，并向您展示相关广告，《永不言弃·掉落》将收集用户数据和设备信息，并与合作伙伴共享。使用本应用即表示您同意本应用的服务条款和隐私政策。");
         }
 
         public Menu CurrentMenu { get { return menuStack.Count > 0 ? menuStack.Peek().menu : null; } }

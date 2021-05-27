@@ -57,7 +57,7 @@ public class PluginMercury : MonoBehaviour
     }
     void Awake()
     {
-       // PlayerPrefs.DeleteAll();
+        PlayerPrefs.DeleteAll();
         if (pInstance != null)
         {
             Destroy(gameObject);
