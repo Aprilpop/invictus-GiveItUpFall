@@ -508,4 +508,10 @@ public class InGame : Menu
     {
         Debug.Log("·ÖÏí");
     }
+
+    void ShareReward()
+    { 
+        ProfileManager.Instance.Coin += 20;
+        Debug.Log("·ÖÏí½±Àø");
+    }
 }
