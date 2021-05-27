@@ -28,6 +28,20 @@
       },
       "url": "https://packages.unity.cn"
     },
+    "com.unity.autostreaming": {
+      "version": "file:C:/unity/ccdplugin/InstantGameProject/com.unity.autostreaming",
+      "depth": 0,
+      "source": "local",
+      "dependencies": {
+        "com.unity.autostreaming.ccd": "0.1.0-preview.1"
+      }
+    },
+    "com.unity.autostreaming.ccd": {
+      "version": "file:C:/unity/ccdplugin/InstantGameProject/com.unity.autostreaming.ccd",
+      "depth": 0,
+      "source": "local",
+      "dependencies": {}
+    },
     "com.unity.collab-proxy": {
       "version": "1.2.16",
       "depth": 0,
@@ -57,6 +71,14 @@
       "source": "registry",
       "dependencies": {},
       "url": "https://packages.unity.cn"
+    },
+    "com.unity.instantgame": {
+      "version": "file:C:/unity/ccdplugin/InstantGameProject/com.unity.instantgame",
+      "depth": 0,
+      "source": "local",
+      "dependencies": {
+        "com.unity.autostreaming": "0.1.0-preview.1"
+      }
     },
     "com.unity.package-manager-ui": {
       "version": "2.2.0",
