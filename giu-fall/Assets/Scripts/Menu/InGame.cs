@@ -27,6 +27,7 @@ public class InGame : Menu
     [SerializeField] Button nextLevelButton;
     [SerializeField] Button newRestartButton;
     [SerializeField] Button reviveButton;
+    [SerializeField] Button shareButton;
 
     [SerializeField] GameObject completed;
     [SerializeField] Text completedText;
@@ -79,6 +80,8 @@ public class InGame : Menu
 
     private void Awake()
     {
+        shareButton.onClick.AddListener(Share);
+
         cameraHolder = Camera.main.GetComponentInParent<CameraFollow>().gameObject.transform;
 
         reviveButton.onClick.AddListener(()=>{
@@ -498,5 +501,11 @@ public class InGame : Menu
         nextLevelButton.gameObject.SetActive(isActiva);
         newRestartButton.gameObject.SetActive(isActiva);
         reviveButton.gameObject.SetActive(isActiva);
+        shareButton.gameObject.SetActive(isActiva);
+    }
+
+    void Share()
+    {
+        Debug.Log("·ÖÏí");
     }
 }
