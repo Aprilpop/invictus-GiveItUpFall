@@ -511,7 +511,7 @@ public class InGame : Menu
 
     void ShareReward()
     { 
-        ProfileManager.Instance.Coin += 20;
+        ProfileManager.Instance.Coin += 300;
         Debug.Log("·ÖÏí½±Àø");
     }
 }
