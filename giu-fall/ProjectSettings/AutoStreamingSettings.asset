@@ -6,13 +6,1635 @@ AutoStreamingSettings:
   serializedVersion: 2
   mSearchMode: 7
   mCustomSearchFile: 
-  mTextures: []
-  mAudios: []
-  mMeshes: []
+  mTextures:
+  - usePlaceholder: 1
+    assetPath: Assets/AutoStreamingData/AutoConvert/Galaxy.spriteatlas
+    placeholderPath: Assets/AutoStreamingData/Placeholders/Assets/AutoStreamingData/AutoConvert/Galaxy.spriteatlas
+    useBlurPlaceholder: 0
+    width: 0
+    height: 0
+    rtMem: 0
+    abSize: 18630
+    refs:
+    - 2
+    - res
+  - usePlaceholder: 1
+    assetPath: Assets/AutoStreamingData/AutoConvert/Holy.spriteatlas
+    placeholderPath: Assets/AutoStreamingData/Placeholders/Assets/AutoStreamingData/AutoConvert/Holy.spriteatlas
+    useBlurPlaceholder: 0
+    width: 0
+    height: 0
+    rtMem: 0
+    abSize: 5686
+    refs:
+    - 2
+    - res
+  - usePlaceholder: 1
+    assetPath: Assets/AutoStreamingData/AutoConvert/MainMenu Graphics.spriteatlas
+    placeholderPath: Assets/AutoStreamingData/Placeholders/Assets/AutoStreamingData/AutoConvert/MainMenu
+      Graphics.spriteatlas
+    useBlurPlaceholder: 0
+    width: 0
+    height: 0
+    rtMem: 0
+    abSize: 25522
+    refs:
+    - 2
+    - res
+  - usePlaceholder: 0
+    assetPath: Assets/AutoStreamingData/AutoConvert/More Games.spriteatlas
+    placeholderPath: 
+    useBlurPlaceholder: 0
+    width: 0
+    height: 0
+    rtMem: 0
+    abSize: 0
+    refs:
+    - 2
+    - res
+  - usePlaceholder: 0
+    assetPath: Assets/AutoStreamingData/AutoConvert/Music.spriteatlas
+    placeholderPath: 
+    useBlurPlaceholder: 0
+    width: 0
+    height: 0
+    rtMem: 0
+    abSize: 0
+    refs:
+    - 2
+    - res
+  - usePlaceholder: 1
+    assetPath: Assets/AutoStreamingData/AutoConvert/Shared GUI.spriteatlas
+    placeholderPath: Assets/AutoStreamingData/Placeholders/Assets/AutoStreamingData/AutoConvert/Shared
+      GUI.spriteatlas
+    useBlurPlaceholder: 0
+    width: 0
+    height: 0
+    rtMem: 0
+    abSize: 128188
+    refs:
+    - res
+  - usePlaceholder: 0
+    assetPath: Assets/AutoStreamingData/AutoConvert/candy.spriteatlas
+    placeholderPath: 
+    useBlurPlaceholder: 0
+    width: 0
+    height: 0
+    rtMem: 0
+    abSize: 0
+    refs:
+    - 2
+    - res
+  - usePlaceholder: 0
+    assetPath: Assets/AutoStreamingData/AutoConvert/comic.spriteatlas
+    placeholderPath: 
+    useBlurPlaceholder: 0
+    width: 0
+    height: 0
+    rtMem: 0
+    abSize: 0
+    refs:
+    - 2
+    - res
+  - usePlaceholder: 1
+    assetPath: Assets/AutoStreamingData/AutoConvert/lemonade.spriteatlas
+    placeholderPath: Assets/AutoStreamingData/Placeholders/Assets/AutoStreamingData/AutoConvert/lemonade.spriteatlas
+    useBlurPlaceholder: 0
+    width: 0
+    height: 0
+    rtMem: 0
+    abSize: 6085
+    refs:
+    - 2
+    - res
+  - usePlaceholder: 0
+    assetPath: Assets/AutoStreamingData/AutoConvert/piggy.spriteatlas
+    placeholderPath: 
+    useBlurPlaceholder: 0
+    width: 0
+    height: 0
+    rtMem: 0
+    abSize: 0
+    refs:
+    - 2
+    - res
+  - usePlaceholder: 0
+    assetPath: Assets/AutoStreamingData/AutoConvert/popcorn.spriteatlas
+    placeholderPath: 
+    useBlurPlaceholder: 0
+    width: 0
+    height: 0
+    rtMem: 0
+    abSize: 0
+    refs:
+    - 2
+    - res
+  - usePlaceholder: 0
+    assetPath: Assets/AutoStreamingData/AutoConvert/rainbow.spriteatlas
+    placeholderPath: 
+    useBlurPlaceholder: 0
+    width: 0
+    height: 0
+    rtMem: 0
+    abSize: 0
+    refs:
+    - 2
+    - res
+  - usePlaceholder: 0
+    assetPath: Assets/AutoStreamingData/AutoConvert/toybox.spriteatlas
+    placeholderPath: 
+    useBlurPlaceholder: 0
+    width: 0
+    height: 0
+    rtMem: 0
+    abSize: 0
+    refs:
+    - 2
+    - res
+  - usePlaceholder: 0
+    assetPath: Assets/Graphics/Close.png
+    placeholderPath: 
+    useBlurPlaceholder: 0
+    width: 141
+    height: 142
+    rtMem: 80088
+    abSize: 0
+    refs:
+    - 2
+    - res
+  - usePlaceholder: 1
+    assetPath: Assets/Graphics/Logo/GIU_fall_logo_cn.png
+    placeholderPath: Assets/AutoStreamingData/Placeholders/Assets/Graphics/Logo/GIU_fall_logo_cn.png
+    useBlurPlaceholder: 0
+    width: 762
+    height: 345
+    rtMem: 1051560
+    abSize: 68678
+    refs:
+    - 2
+    - res
+  - usePlaceholder: 1
+    assetPath: Assets/Graphics/Logo/GIU_fall_logo_en.png
+    placeholderPath: Assets/AutoStreamingData/Placeholders/Assets/Graphics/Logo/GIU_fall_logo_en.png
+    useBlurPlaceholder: 0
+    width: 860
+    height: 379
+    rtMem: 1303760
+    abSize: 65703
+    refs:
+    - 2
+    - res
+  - usePlaceholder: 1
+    assetPath: Assets/Graphics/Pointer.png
+    placeholderPath: Assets/AutoStreamingData/Placeholders/Assets/Graphics/Pointer.png
+    useBlurPlaceholder: 0
+    width: 154
+    height: 205
+    rtMem: 126280
+    abSize: 6522
+    refs:
+    - 2
+    - res
+  - usePlaceholder: 1
+    assetPath: Assets/Graphics/Save desktop2.png
+    placeholderPath: Assets/AutoStreamingData/Placeholders/Assets/Graphics/Save desktop2.png
+    useBlurPlaceholder: 0
+    width: 196
+    height: 169
+    rtMem: 132496
+    abSize: 7375
+    refs:
+    - 2
+    - res
+  - usePlaceholder: 0
+    assetPath: Assets/Graphics/SaveDesktop1.png
+    placeholderPath: 
+    useBlurPlaceholder: 0
+    width: 149
+    height: 115
+    rtMem: 68540
+    abSize: 0
+    refs:
+    - 2
+    - res
+  - usePlaceholder: 0
+    assetPath: Assets/Graphics/SignIn.png
+    placeholderPath: 
+    useBlurPlaceholder: 0
+    width: 149
+    height: 115
+    rtMem: 68540
+    abSize: 0
+    refs:
+    - 2
+    - res
+  - usePlaceholder: 1
+    assetPath: Assets/Graphics/SignIn_glow.png
+    placeholderPath: Assets/AutoStreamingData/Placeholders/Assets/Graphics/SignIn_glow.png
+    useBlurPlaceholder: 0
+    width: 196
+    height: 169
+    rtMem: 132496
+    abSize: 7569
+    refs:
+    - 2
+    - res
+  - usePlaceholder: 0
+    assetPath: Assets/Graphics/Textures/GiveItUp!2_coin UI.png
+    placeholderPath: 
+    useBlurPlaceholder: 0
+    width: 128
+    height: 128
+    rtMem: 16384
+    abSize: 0
+    refs:
+    - 2
+    - res
+  - usePlaceholder: 1
+    assetPath: Assets/Graphics/Textures/GiveItUp!2_coin.png
+    placeholderPath: Assets/AutoStreamingData/Placeholders/Assets/Graphics/Textures/GiveItUp!2_coin.png
+    useBlurPlaceholder: 0
+    width: 128
+    height: 128
+    rtMem: 21872
+    abSize: 5163
+    refs:
+    - 2
+  - usePlaceholder: 1
+    assetPath: Assets/Graphics/Textures/back_02.png
+    placeholderPath: Assets/AutoStreamingData/Placeholders/Assets/Graphics/Textures/back_02.png
+    useBlurPlaceholder: 0
+    width: 1024
+    height: 2048
+    rtMem: 2796240
+    abSize: 29016
+    refs:
+    - 2
+  - usePlaceholder: 1
+    assetPath: Assets/Graphics/Textures/back_02_gradient.png
+    placeholderPath: Assets/AutoStreamingData/Placeholders/Assets/Graphics/Textures/back_02_gradient.png
+    useBlurPlaceholder: 0
+    width: 2048
+    height: 2048
+    rtMem: 22369620
+    abSize: 371627
+    refs:
+    - 2
+  - usePlaceholder: 1
+    assetPath: Assets/Graphics/Textures/platform_UV_texture_glass2.png
+    placeholderPath: Assets/AutoStreamingData/Placeholders/Assets/Graphics/Textures/platform_UV_texture_glass2.png
+    useBlurPlaceholder: 0
+    width: 512
+    height: 512
+    rtMem: 349552
+    abSize: 14813
+    refs:
+    - 2
+    - res
+  - usePlaceholder: 1
+    assetPath: Assets/Graphics/Textures/platform_UV_texture_green.png
+    placeholderPath: Assets/AutoStreamingData/Placeholders/Assets/Graphics/Textures/platform_UV_texture_green.png
+    useBlurPlaceholder: 0
+    width: 512
+    height: 512
+    rtMem: 174776
+    abSize: 11939
+    refs:
+    - 2
+  - usePlaceholder: 1
+    assetPath: Assets/Graphics/Textures/platform_UV_texture_grey.png
+    placeholderPath: Assets/AutoStreamingData/Placeholders/Assets/Graphics/Textures/platform_UV_texture_grey.png
+    useBlurPlaceholder: 0
+    width: 512
+    height: 512
+    rtMem: 174776
+    abSize: 11885
+    refs:
+    - 2
+    - res
+  - usePlaceholder: 1
+    assetPath: Assets/Graphics/Textures/platform_UV_texture_red.png
+    placeholderPath: Assets/AutoStreamingData/Placeholders/Assets/Graphics/Textures/platform_UV_texture_red.png
+    useBlurPlaceholder: 0
+    width: 512
+    height: 512
+    rtMem: 174776
+    abSize: 11517
+    refs:
+    - 2
+  - usePlaceholder: 1
+    assetPath: Assets/Graphics/block-sign-png-6.png
+    placeholderPath: Assets/AutoStreamingData/Placeholders/Assets/Graphics/block-sign-png-6.png
+    useBlurPlaceholder: 0
+    width: 512
+    height: 512
+    rtMem: 262144
+    abSize: 8535
+    refs:
+    - 2
+    - res
+  - usePlaceholder: 0
+    assetPath: Assets/Graphics/buttonIcon.png
+    placeholderPath: 
+    useBlurPlaceholder: 0
+    width: 373
+    height: 148
+    rtMem: 220816
+    abSize: 0
+    refs:
+    - 2
+    - res
+  - usePlaceholder: 1
+    assetPath: Assets/Graphics/circular.png
+    placeholderPath: Assets/AutoStreamingData/Placeholders/Assets/Graphics/circular.png
+    useBlurPlaceholder: 0
+    width: 703
+    height: 703
+    rtMem: 1976836
+    abSize: 25155
+    refs:
+    - 2
+    - res
+  - usePlaceholder: 1
+    assetPath: Assets/Graphics/circular_glow.png
+    placeholderPath: Assets/AutoStreamingData/Placeholders/Assets/Graphics/circular_glow.png
+    useBlurPlaceholder: 0
+    width: 1005
+    height: 1261
+    rtMem: 5069220
+    abSize: 53564
+    refs:
+    - 2
+    - res
+  - usePlaceholder: 1
+    assetPath: Assets/Graphics/di.png
+    placeholderPath: Assets/AutoStreamingData/Placeholders/Assets/Graphics/di.png
+    useBlurPlaceholder: 0
+    width: 910
+    height: 1161
+    rtMem: 4226040
+    abSize: 19098
+    refs:
+    - 2
+    - res
+  - usePlaceholder: 1
+    assetPath: Assets/Graphics/douying.png
+    placeholderPath: Assets/AutoStreamingData/Placeholders/Assets/Graphics/douying.png
+    useBlurPlaceholder: 0
+    width: 610
+    height: 591
+    rtMem: 1442040
+    abSize: 53889
+    refs:
+    - 2
+    - res
+  - usePlaceholder: 0
+    assetPath: Assets/Graphics/felkialtojel (2).png
+    placeholderPath: 
+    useBlurPlaceholder: 0
+    width: 512
+    height: 512
+    rtMem: 262144
+    abSize: 0
+    refs:
+    - 2
+    - res
+  - usePlaceholder: 1
+    assetPath: Assets/Graphics/giu_dash_laboratory.png
+    placeholderPath: Assets/AutoStreamingData/Placeholders/Assets/Graphics/giu_dash_laboratory.png
+    useBlurPlaceholder: 0
+    width: 2048
+    height: 2048
+    rtMem: 4194304
+    abSize: 238200
+    refs:
+    - 2
+    - res
+  - usePlaceholder: 1
+    assetPath: Assets/Graphics/giu_dash_ui01.png
+    placeholderPath: Assets/AutoStreamingData/Placeholders/Assets/Graphics/giu_dash_ui01.png
+    useBlurPlaceholder: 0
+    width: 2048
+    height: 2048
+    rtMem: 16777216
+    abSize: 574486
+    refs:
+    - 2
+    - res
+  - usePlaceholder: 0
+    assetPath: Assets/Graphics/grey_icon.png
+    placeholderPath: 
+    useBlurPlaceholder: 0
+    width: 165
+    height: 163
+    rtMem: 107580
+    abSize: 0
+    refs:
+    - 2
+    - res
+  - usePlaceholder: 0
+    assetPath: Assets/Graphics/icon_shop.png
+    placeholderPath: 
+    useBlurPlaceholder: 0
+    width: 204
+    height: 174
+    rtMem: 141984
+    abSize: 0
+    refs:
+    - 2
+    - res
+  - usePlaceholder: 1
+    assetPath: Assets/Graphics/pickup_jetpack.png
+    placeholderPath: Assets/AutoStreamingData/Placeholders/Assets/Graphics/pickup_jetpack.png
+    useBlurPlaceholder: 0
+    width: 106
+    height: 107
+    rtMem: 45368
+    abSize: 7076
+    refs:
+    - 2
+    - res
+  - usePlaceholder: 1
+    assetPath: Assets/Graphics/pickup_jetpack_for_booster.png
+    placeholderPath: Assets/AutoStreamingData/Placeholders/Assets/Graphics/pickup_jetpack_for_booster.png
+    useBlurPlaceholder: 0
+    width: 106
+    height: 107
+    rtMem: 45126
+    abSize: 8066
+    refs:
+    - 2
+  - usePlaceholder: 0
+    assetPath: Assets/Graphics/redDot.png
+    placeholderPath: 
+    useBlurPlaceholder: 0
+    width: 36
+    height: 36
+    rtMem: 1296
+    abSize: 0
+    refs:
+    - 2
+    - res
+  - usePlaceholder: 1
+    assetPath: Assets/Graphics/shine_ray3.png
+    placeholderPath: Assets/AutoStreamingData/Placeholders/Assets/Graphics/shine_ray3.png
+    useBlurPlaceholder: 0
+    width: 1024
+    height: 1024
+    rtMem: 1048576
+    abSize: 85782
+    refs:
+    - 2
+    - res
+  - usePlaceholder: 1
+    assetPath: Assets/Graphics/title.png
+    placeholderPath: Assets/AutoStreamingData/Placeholders/Assets/Graphics/title.png
+    useBlurPlaceholder: 0
+    width: 1080
+    height: 338
+    rtMem: 1460160
+    abSize: 21302
+    refs:
+    - 2
+    - res
+  - usePlaceholder: 0
+    assetPath: Assets/Graphics/turntableIcon.png
+    placeholderPath: 
+    useBlurPlaceholder: 0
+    width: 128
+    height: 128
+    rtMem: 16384
+    abSize: 0
+    refs:
+    - 2
+    - res
+  - usePlaceholder: 0
+    assetPath: Assets/Graphics/tutorial_hand.png
+    placeholderPath: 
+    useBlurPlaceholder: 0
+    width: 111
+    height: 149
+    rtMem: 66156
+    abSize: 0
+    refs:
+    - 2
+    - res
+  - usePlaceholder: 0
+    assetPath: Assets/Graphics/video_Glow.png
+    placeholderPath: 
+    useBlurPlaceholder: 0
+    width: 80
+    height: 59
+    rtMem: 18880
+    abSize: 0
+    refs:
+    - 2
+    - res
+  - usePlaceholder: 0
+    assetPath: Assets/Prefabs/CharacterImages/ingame_blob_arcade.png
+    placeholderPath: 
+    useBlurPlaceholder: 0
+    width: 256
+    height: 256
+    rtMem: 65536
+    abSize: 0
+    refs:
+    - 2
+    - res
+  - usePlaceholder: 0
+    assetPath: Assets/Prefabs/CharacterImages/ingame_blob_basic.png
+    placeholderPath: 
+    useBlurPlaceholder: 0
+    width: 256
+    height: 256
+    rtMem: 65536
+    abSize: 0
+    refs:
+    - 2
+    - res
+  - usePlaceholder: 0
+    assetPath: Assets/Prefabs/CharacterImages/ingame_blob_bighat.png
+    placeholderPath: 
+    useBlurPlaceholder: 0
+    width: 256
+    height: 256
+    rtMem: 65536
+    abSize: 0
+    refs:
+    - 2
+    - res
+  - usePlaceholder: 0
+    assetPath: Assets/Prefabs/CharacterImages/ingame_blob_bully.png
+    placeholderPath: 
+    useBlurPlaceholder: 0
+    width: 256
+    height: 256
+    rtMem: 65536
+    abSize: 0
+    refs:
+    - 2
+    - res
+  - usePlaceholder: 0
+    assetPath: Assets/Prefabs/CharacterImages/ingame_blob_cat.png
+    placeholderPath: 
+    useBlurPlaceholder: 0
+    width: 256
+    height: 256
+    rtMem: 65536
+    abSize: 0
+    refs:
+    - 2
+    - res
+  - usePlaceholder: 0
+    assetPath: Assets/Prefabs/CharacterImages/ingame_blob_centurio.png
+    placeholderPath: 
+    useBlurPlaceholder: 0
+    width: 256
+    height: 256
+    rtMem: 65536
+    abSize: 0
+    refs:
+    - 2
+    - res
+  - usePlaceholder: 0
+    assetPath: Assets/Prefabs/CharacterImages/ingame_blob_foxy.png
+    placeholderPath: 
+    useBlurPlaceholder: 0
+    width: 256
+    height: 256
+    rtMem: 65536
+    abSize: 0
+    refs:
+    - 2
+    - res
+  - usePlaceholder: 0
+    assetPath: Assets/Prefabs/CharacterImages/ingame_blob_frankeinstein.png
+    placeholderPath: 
+    useBlurPlaceholder: 0
+    width: 256
+    height: 256
+    rtMem: 65536
+    abSize: 0
+    refs:
+    - 2
+    - res
+  - usePlaceholder: 0
+    assetPath: Assets/Prefabs/CharacterImages/ingame_blob_gamer.png
+    placeholderPath: 
+    useBlurPlaceholder: 0
+    width: 256
+    height: 256
+    rtMem: 65536
+    abSize: 0
+    refs:
+    - 2
+    - res
+  - usePlaceholder: 0
+    assetPath: Assets/Prefabs/CharacterImages/ingame_blob_geisha.png
+    placeholderPath: 
+    useBlurPlaceholder: 0
+    width: 256
+    height: 256
+    rtMem: 65536
+    abSize: 0
+    refs:
+    - 2
+    - res
+  - usePlaceholder: 1
+    assetPath: Assets/Prefabs/CharacterImages/ingame_blob_glitch.png
+    placeholderPath: Assets/AutoStreamingData/Placeholders/Assets/Prefabs/CharacterImages/ingame_blob_glitch.png
+    useBlurPlaceholder: 0
+    width: 256
+    height: 256
+    rtMem: 65536
+    abSize: 6347
+    refs:
+    - 2
+    - res
+  - usePlaceholder: 0
+    assetPath: Assets/Prefabs/CharacterImages/ingame_blob_guko.png
+    placeholderPath: 
+    useBlurPlaceholder: 0
+    width: 256
+    height: 256
+    rtMem: 65536
+    abSize: 0
+    refs:
+    - 2
+    - res
+  - usePlaceholder: 0
+    assetPath: Assets/Prefabs/CharacterImages/ingame_blob_mohawk.png
+    placeholderPath: 
+    useBlurPlaceholder: 0
+    width: 256
+    height: 256
+    rtMem: 65536
+    abSize: 0
+    refs:
+    - 2
+    - res
+  - usePlaceholder: 0
+    assetPath: Assets/Prefabs/CharacterImages/ingame_blob_ninja.png
+    placeholderPath: 
+    useBlurPlaceholder: 0
+    width: 256
+    height: 256
+    rtMem: 65536
+    abSize: 0
+    refs:
+    - 2
+    - res
+  - usePlaceholder: 0
+    assetPath: Assets/Prefabs/CharacterImages/ingame_blob_noname.png
+    placeholderPath: 
+    useBlurPlaceholder: 0
+    width: 256
+    height: 256
+    rtMem: 65536
+    abSize: 0
+    refs:
+    - 2
+    - res
+  - usePlaceholder: 0
+    assetPath: Assets/Prefabs/CharacterImages/ingame_blob_priest.png
+    placeholderPath: 
+    useBlurPlaceholder: 0
+    width: 256
+    height: 256
+    rtMem: 65536
+    abSize: 0
+    refs:
+    - 2
+    - res
+  - usePlaceholder: 0
+    assetPath: Assets/Prefabs/CharacterImages/ingame_blob_puffer.png
+    placeholderPath: 
+    useBlurPlaceholder: 0
+    width: 256
+    height: 256
+    rtMem: 65536
+    abSize: 0
+    refs:
+    - 2
+    - res
+  - usePlaceholder: 0
+    assetPath: Assets/Prefabs/CharacterImages/ingame_blob_sister.png
+    placeholderPath: 
+    useBlurPlaceholder: 0
+    width: 256
+    height: 256
+    rtMem: 65536
+    abSize: 0
+    refs:
+    - 2
+    - res
+  - usePlaceholder: 0
+    assetPath: Assets/Prefabs/CharacterImages/ingame_blob_slush.png
+    placeholderPath: 
+    useBlurPlaceholder: 0
+    width: 256
+    height: 256
+    rtMem: 65536
+    abSize: 0
+    refs:
+    - 2
+    - res
+  - usePlaceholder: 0
+    assetPath: Assets/Prefabs/CharacterImages/ingame_blob_unicorn.png
+    placeholderPath: 
+    useBlurPlaceholder: 0
+    width: 256
+    height: 256
+    rtMem: 65536
+    abSize: 0
+    refs:
+    - 2
+    - res
+  - usePlaceholder: 1
+    assetPath: Assets/Prefabs/Splatter/splatter_new_01.png
+    placeholderPath: Assets/AutoStreamingData/Placeholders/Assets/Prefabs/Splatter/splatter_new_01.png
+    useBlurPlaceholder: 0
+    width: 570
+    height: 428
+    rtMem: 243960
+    abSize: 16224
+    refs:
+    - res
+  - usePlaceholder: 1
+    assetPath: Assets/Prefabs/Splatter/splatter_new_02.png
+    placeholderPath: Assets/AutoStreamingData/Placeholders/Assets/Prefabs/Splatter/splatter_new_02.png
+    useBlurPlaceholder: 0
+    width: 466
+    height: 466
+    rtMem: 217156
+    abSize: 29019
+    refs:
+    - res
+  - usePlaceholder: 1
+    assetPath: Assets/Prefabs/Splatter/splatter_new_03.png
+    placeholderPath: Assets/AutoStreamingData/Placeholders/Assets/Prefabs/Splatter/splatter_new_03.png
+    useBlurPlaceholder: 0
+    width: 570
+    height: 428
+    rtMem: 975840
+    abSize: 19249
+    refs:
+    - res
+  - usePlaceholder: 1
+    assetPath: Assets/SplashScreen/invictus_2208x1242.png
+    placeholderPath: Assets/AutoStreamingData/Placeholders/Assets/SplashScreen/invictus_2208x1242.png
+    useBlurPlaceholder: 0
+    width: 2048
+    height: 1152
+    rtMem: 7077888
+    abSize: 295305
+    refs:
+    - 1
+  - usePlaceholder: 0
+    assetPath: Assets/Sprites/Trailpreview/NewTrailPreview/01_basic.png
+    placeholderPath: 
+    useBlurPlaceholder: 0
+    width: 316
+    height: 276
+    rtMem: 87216
+    abSize: 0
+    refs:
+    - 2
+    - res
+  - usePlaceholder: 1
+    assetPath: Assets/Sprites/Trailpreview/NewTrailPreview/02_hearts_with_yellowline.png
+    placeholderPath: Assets/AutoStreamingData/Placeholders/Assets/Sprites/Trailpreview/NewTrailPreview/02_hearts_with_yellowline.png
+    useBlurPlaceholder: 0
+    width: 498
+    height: 405
+    rtMem: 806760
+    abSize: 11816
+    refs:
+    - 2
+    - res
+  - usePlaceholder: 1
+    assetPath: Assets/Sprites/Trailpreview/NewTrailPreview/03_clover.png
+    placeholderPath: Assets/AutoStreamingData/Placeholders/Assets/Sprites/Trailpreview/NewTrailPreview/03_clover.png
+    useBlurPlaceholder: 0
+    width: 453
+    height: 386
+    rtMem: 699432
+    abSize: 87407
+    refs:
+    - 2
+    - res
+  - usePlaceholder: 1
+    assetPath: Assets/Sprites/Trailpreview/NewTrailPreview/04_comic.png
+    placeholderPath: Assets/AutoStreamingData/Placeholders/Assets/Sprites/Trailpreview/NewTrailPreview/04_comic.png
+    useBlurPlaceholder: 0
+    width: 411
+    height: 329
+    rtMem: 540876
+    abSize: 12928
+    refs:
+    - 2
+    - res
+  - usePlaceholder: 1
+    assetPath: Assets/Sprites/Trailpreview/NewTrailPreview/06_kitten.png
+    placeholderPath: Assets/AutoStreamingData/Placeholders/Assets/Sprites/Trailpreview/NewTrailPreview/06_kitten.png
+    useBlurPlaceholder: 0
+    width: 257
+    height: 236
+    rtMem: 242608
+    abSize: 10517
+    refs:
+    - 2
+    - res
+  - usePlaceholder: 1
+    assetPath: Assets/Sprites/Trailpreview/NewTrailPreview/07_flash.png
+    placeholderPath: Assets/AutoStreamingData/Placeholders/Assets/Sprites/Trailpreview/NewTrailPreview/07_flash.png
+    useBlurPlaceholder: 0
+    width: 318
+    height: 354
+    rtMem: 450288
+    abSize: 12986
+    refs:
+    - 2
+    - res
+  - usePlaceholder: 1
+    assetPath: Assets/Sprites/Trailpreview/NewTrailPreview/08_water.png
+    placeholderPath: Assets/AutoStreamingData/Placeholders/Assets/Sprites/Trailpreview/NewTrailPreview/08_water.png
+    useBlurPlaceholder: 0
+    width: 309
+    height: 261
+    rtMem: 322596
+    abSize: 12417
+    refs:
+    - 2
+    - res
+  - usePlaceholder: 1
+    assetPath: Assets/Sprites/Trailpreview/NewTrailPreview/09_galaxy.png
+    placeholderPath: Assets/AutoStreamingData/Placeholders/Assets/Sprites/Trailpreview/NewTrailPreview/09_galaxy.png
+    useBlurPlaceholder: 0
+    width: 252
+    height: 302
+    rtMem: 304416
+    abSize: 16949
+    refs:
+    - 2
+    - res
+  - usePlaceholder: 1
+    assetPath: Assets/Sprites/Trailpreview/NewTrailPreview/10_holy.png
+    placeholderPath: Assets/AutoStreamingData/Placeholders/Assets/Sprites/Trailpreview/NewTrailPreview/10_holy.png
+    useBlurPlaceholder: 0
+    width: 305
+    height: 332
+    rtMem: 405040
+    abSize: 39008
+    refs:
+    - 2
+    - res
+  - usePlaceholder: 1
+    assetPath: Assets/Sprites/Trailpreview/NewTrailPreview/12_wild.png
+    placeholderPath: Assets/AutoStreamingData/Placeholders/Assets/Sprites/Trailpreview/NewTrailPreview/12_wild.png
+    useBlurPlaceholder: 0
+    width: 366
+    height: 374
+    rtMem: 547536
+    abSize: 29785
+    refs:
+    - 2
+    - res
+  - usePlaceholder: 1
+    assetPath: Assets/Sprites/Trailpreview/NewTrailPreview/13_snow.png
+    placeholderPath: Assets/AutoStreamingData/Placeholders/Assets/Sprites/Trailpreview/NewTrailPreview/13_snow.png
+    useBlurPlaceholder: 0
+    width: 206
+    height: 265
+    rtMem: 218360
+    abSize: 27653
+    refs:
+    - 2
+    - res
+  - usePlaceholder: 1
+    assetPath: Assets/Sprites/Trailpreview/NewTrailPreview/14_rainbow.png
+    placeholderPath: Assets/AutoStreamingData/Placeholders/Assets/Sprites/Trailpreview/NewTrailPreview/14_rainbow.png
+    useBlurPlaceholder: 0
+    width: 313
+    height: 355
+    rtMem: 444460
+    abSize: 22361
+    refs:
+    - 2
+    - res
+  - usePlaceholder: 1
+    assetPath: Assets/Sprites/Trailpreview/NewTrailPreview/15_music.png
+    placeholderPath: Assets/AutoStreamingData/Placeholders/Assets/Sprites/Trailpreview/NewTrailPreview/15_music.png
+    useBlurPlaceholder: 0
+    width: 230
+    height: 308
+    rtMem: 283360
+    abSize: 11991
+    refs:
+    - 2
+    - res
+  - usePlaceholder: 1
+    assetPath: Assets/Sprites/Trailpreview/NewTrailPreview/16_superblob.png
+    placeholderPath: Assets/AutoStreamingData/Placeholders/Assets/Sprites/Trailpreview/NewTrailPreview/16_superblob.png
+    useBlurPlaceholder: 0
+    width: 509
+    height: 381
+    rtMem: 775716
+    abSize: 71867
+    refs:
+    - 2
+    - res
+  - usePlaceholder: 1
+    assetPath: Assets/Sprites/Trailpreview/NewTrailPreview/19_pixel.png
+    placeholderPath: Assets/AutoStreamingData/Placeholders/Assets/Sprites/Trailpreview/NewTrailPreview/19_pixel.png
+    useBlurPlaceholder: 0
+    width: 586
+    height: 395
+    rtMem: 925880
+    abSize: 12892
+    refs:
+    - 2
+    - res
+  - usePlaceholder: 1
+    assetPath: Assets/Sprites/Trailpreview/NewTrailPreview/20_lemonade.png
+    placeholderPath: Assets/AutoStreamingData/Placeholders/Assets/Sprites/Trailpreview/NewTrailPreview/20_lemonade.png
+    useBlurPlaceholder: 0
+    width: 425
+    height: 311
+    rtMem: 528700
+    abSize: 25776
+    refs:
+    - 2
+    - res
+  - usePlaceholder: 1
+    assetPath: Assets/Sprites/Trailpreview/NewTrailPreview/21_piggy 2019.png
+    placeholderPath: Assets/AutoStreamingData/Placeholders/Assets/Sprites/Trailpreview/NewTrailPreview/21_piggy
+      2019.png
+    useBlurPlaceholder: 0
+    width: 441
+    height: 409
+    rtMem: 721476
+    abSize: 42334
+    refs:
+    - 2
+    - res
+  - usePlaceholder: 0
+    assetPath: Assets/Sprites/Trailpreview/NewTrailPreview/24_toybox.png
+    placeholderPath: 
+    useBlurPlaceholder: 0
+    width: 337
+    height: 299
+    rtMem: 403052
+    abSize: 0
+    refs:
+    - 2
+    - res
+  - usePlaceholder: 1
+    assetPath: Assets/Sprites/Trailpreview/NewTrailPreview/25_Candy.png
+    placeholderPath: Assets/AutoStreamingData/Placeholders/Assets/Sprites/Trailpreview/NewTrailPreview/25_Candy.png
+    useBlurPlaceholder: 0
+    width: 478
+    height: 306
+    rtMem: 585072
+    abSize: 18252
+    refs:
+    - 2
+    - res
+  - usePlaceholder: 1
+    assetPath: Assets/Sprites/Trailpreview/NewTrailPreview/26_popcorn.png
+    placeholderPath: Assets/AutoStreamingData/Placeholders/Assets/Sprites/Trailpreview/NewTrailPreview/26_popcorn.png
+    useBlurPlaceholder: 0
+    width: 434
+    height: 483
+    rtMem: 838488
+    abSize: 13884
+    refs:
+    - 2
+    - res
+  - usePlaceholder: 0
+    assetPath: Assets/Textures/Trails/Candy/candy_trail.png
+    placeholderPath: 
+    useBlurPlaceholder: 0
+    width: 182
+    height: 256
+    rtMem: 186368
+    abSize: 0
+    refs:
+    - 2
+    - res
+  - usePlaceholder: 1
+    assetPath: Assets/Textures/Trails/Flash/Flash.png
+    placeholderPath: Assets/AutoStreamingData/Placeholders/Assets/Textures/Trails/Flash/Flash.png
+    useBlurPlaceholder: 0
+    width: 256
+    height: 256
+    rtMem: 65536
+    abSize: 15019
+    refs:
+    - 2
+    - res
+  - usePlaceholder: 0
+    assetPath: Assets/Textures/Trails/Flash/Flash_particle.png
+    placeholderPath: 
+    useBlurPlaceholder: 0
+    width: 128
+    height: 128
+    rtMem: 16384
+    abSize: 0
+    refs:
+    - 2
+    - res
+  - usePlaceholder: 0
+    assetPath: Assets/Textures/Trails/Kitten/Kitten_particle2.png
+    placeholderPath: 
+    useBlurPlaceholder: 0
+    width: 128
+    height: 128
+    rtMem: 16384
+    abSize: 0
+    refs:
+    - 2
+    - res
+  - usePlaceholder: 0
+    assetPath: Assets/Textures/Trails/Kitten/Kitten_tail.png
+    placeholderPath: 
+    useBlurPlaceholder: 0
+    width: 128
+    height: 128
+    rtMem: 16384
+    abSize: 0
+    refs:
+    - 2
+    - res
+  - usePlaceholder: 1
+    assetPath: Assets/Textures/Trails/Piggy/piggy_trail.png
+    placeholderPath: Assets/AutoStreamingData/Placeholders/Assets/Textures/Trails/Piggy/piggy_trail.png
+    useBlurPlaceholder: 0
+    width: 128
+    height: 128
+    rtMem: 65536
+    abSize: 5250
+    refs:
+    - 2
+    - res
+  - usePlaceholder: 0
+    assetPath: Assets/Textures/Trails/Popcorn/popcorn_trail.png
+    placeholderPath: 
+    useBlurPlaceholder: 0
+    width: 128
+    height: 128
+    rtMem: 65536
+    abSize: 0
+    refs:
+    - 2
+    - res
+  - usePlaceholder: 1
+    assetPath: Assets/Textures/Trails/Snowflake/snowflake.png
+    placeholderPath: Assets/AutoStreamingData/Placeholders/Assets/Textures/Trails/Snowflake/snowflake.png
+    useBlurPlaceholder: 0
+    width: 128
+    height: 128
+    rtMem: 16384
+    abSize: 6647
+    refs:
+    - 2
+    - res
+  - usePlaceholder: 0
+    assetPath: Assets/Textures/Trails/Snowflake/snowflake_trail.png
+    placeholderPath: 
+    useBlurPlaceholder: 0
+    width: 128
+    height: 128
+    rtMem: 16384
+    abSize: 0
+    refs:
+    - 2
+    - res
+  - usePlaceholder: 0
+    assetPath: Assets/Textures/Trails/Toxic/toxic.png
+    placeholderPath: 
+    useBlurPlaceholder: 0
+    width: 128
+    height: 128
+    rtMem: 16384
+    abSize: 0
+    refs:
+    - res
+  - usePlaceholder: 0
+    assetPath: Assets/Textures/Trails/Toxic/toxic_particle.png
+    placeholderPath: 
+    useBlurPlaceholder: 0
+    width: 128
+    height: 128
+    rtMem: 16384
+    abSize: 0
+    refs:
+    - res
+  - usePlaceholder: 1
+    assetPath: Assets/Textures/Trails/Toybox/toybox_trail.png
+    placeholderPath: Assets/AutoStreamingData/Placeholders/Assets/Textures/Trails/Toybox/toybox_trail.png
+    useBlurPlaceholder: 0
+    width: 360
+    height: 507
+    rtMem: 730080
+    abSize: 10140
+    refs:
+    - 2
+    - res
+  - usePlaceholder: 0
+    assetPath: Assets/Textures/Trails/Water/Water.png
+    placeholderPath: 
+    useBlurPlaceholder: 0
+    width: 128
+    height: 128
+    rtMem: 16384
+    abSize: 0
+    refs:
+    - 2
+    - res
+  - usePlaceholder: 1
+    assetPath: Assets/Textures/Trails/Water/water_trail.png
+    placeholderPath: Assets/AutoStreamingData/Placeholders/Assets/Textures/Trails/Water/water_trail.png
+    useBlurPlaceholder: 0
+    width: 128
+    height: 125
+    rtMem: 64000
+    abSize: 9237
+    refs:
+    - 2
+    - res
+  - usePlaceholder: 0
+    assetPath: Assets/Textures/Trails/Wild/Wild.png
+    placeholderPath: 
+    useBlurPlaceholder: 0
+    width: 128
+    height: 128
+    rtMem: 16384
+    abSize: 0
+    refs:
+    - 2
+    - res
+  - usePlaceholder: 0
+    assetPath: Assets/Textures/Trails/Wild/Wild_particle.png
+    placeholderPath: 
+    useBlurPlaceholder: 0
+    width: 128
+    height: 128
+    rtMem: 16384
+    abSize: 0
+    refs:
+    - 2
+    - res
+  - usePlaceholder: 0
+    assetPath: Assets/Textures/Trails/blackfire/fire_particle.png
+    placeholderPath: 
+    useBlurPlaceholder: 0
+    width: 64
+    height: 64
+    rtMem: 4096
+    abSize: 0
+    refs:
+    - res
+  - usePlaceholder: 0
+    assetPath: Assets/Textures/Trails/blackfire/fire_trail.png
+    placeholderPath: 
+    useBlurPlaceholder: 0
+    width: 256
+    height: 256
+    rtMem: 65536
+    abSize: 0
+    refs:
+    - res
+  - usePlaceholder: 0
+    assetPath: Assets/Textures/Trails/blazing/Smoke_particle.png
+    placeholderPath: 
+    useBlurPlaceholder: 0
+    width: 128
+    height: 128
+    rtMem: 16384
+    abSize: 0
+    refs:
+    - res
+  - usePlaceholder: 0
+    assetPath: Assets/Textures/Trails/blazing/fire_particle.png
+    placeholderPath: 
+    useBlurPlaceholder: 0
+    width: 64
+    height: 64
+    rtMem: 4096
+    abSize: 0
+    refs:
+    - 2
+    - res
+  - usePlaceholder: 1
+    assetPath: Assets/Textures/Trails/clover/bio_line.png
+    placeholderPath: Assets/AutoStreamingData/Placeholders/Assets/Textures/Trails/clover/bio_line.png
+    useBlurPlaceholder: 0
+    width: 128
+    height: 128
+    rtMem: 16384
+    abSize: 7581
+    refs:
+    - 2
+    - res
+  - usePlaceholder: 1
+    assetPath: Assets/Textures/Trails/clover/bio_particle.png
+    placeholderPath: Assets/AutoStreamingData/Placeholders/Assets/Textures/Trails/clover/bio_particle.png
+    useBlurPlaceholder: 0
+    width: 128
+    height: 128
+    rtMem: 16384
+    abSize: 6229
+    refs:
+    - 2
+    - res
+  - usePlaceholder: 0
+    assetPath: Assets/Textures/Trails/comic/comic_line.png
+    placeholderPath: 
+    useBlurPlaceholder: 0
+    width: 128
+    height: 128
+    rtMem: 16384
+    abSize: 0
+    refs:
+    - 2
+    - res
+  - usePlaceholder: 0
+    assetPath: Assets/Textures/Trails/heart/heart.png
+    placeholderPath: 
+    useBlurPlaceholder: 0
+    width: 128
+    height: 128
+    rtMem: 16384
+    abSize: 0
+    refs:
+    - 2
+    - res
+  - usePlaceholder: 1
+    assetPath: Assets/Textures/Trails/superblob/superblob_lightning_1.png
+    placeholderPath: Assets/AutoStreamingData/Placeholders/Assets/Textures/Trails/superblob/superblob_lightning_1.png
+    useBlurPlaceholder: 0
+    width: 256
+    height: 256
+    rtMem: 65536
+    abSize: 7807
+    refs:
+    - 2
+    - res
+  - usePlaceholder: 1
+    assetPath: Assets/Textures/Trails/superblob/superblob_trail.png
+    placeholderPath: Assets/AutoStreamingData/Placeholders/Assets/Textures/Trails/superblob/superblob_trail.png
+    useBlurPlaceholder: 0
+    width: 512
+    height: 512
+    rtMem: 262144
+    abSize: 40705
+    refs:
+    - 2
+    - res
+  - usePlaceholder: 1
+    assetPath: Assets/picture/SingmaanSplash.png
+    placeholderPath: Assets/AutoStreamingData/Placeholders/Assets/picture/SingmaanSplash.png
+    useBlurPlaceholder: 0
+    width: 510
+    height: 453
+    rtMem: 924120
+    abSize: 36076
+    refs:
+    - 0
+  - usePlaceholder: 0
+    assetPath: Assets/picture/pix_black.png
+    placeholderPath: 
+    useBlurPlaceholder: 0
+    width: 1
+    height: 1
+    rtMem: 3
+    abSize: 0
+    refs:
+    - 0
+  mAudios:
+  - onDemandDownload: 0
+    assetPath: Assets/Music/Fall/Sounds/Blob_Jump_Up-01.wav
+    localFileId: -1
+    rtMem: 3552
+    refs:
+    - 2
+  - onDemandDownload: 0
+    assetPath: Assets/Music/Fall/Sounds/Blob_Jump_Up-02.wav
+    localFileId: -1
+    rtMem: 2240
+    refs:
+    - 2
+  - onDemandDownload: 0
+    assetPath: Assets/Music/Fall/Sounds/Blob_Jump_Up-03.wav
+    localFileId: -1
+    rtMem: 1760
+    refs:
+    - 2
+  - onDemandDownload: 1
+    assetPath: Assets/Music/Fall/Sounds/End_Success.mp3
+    localFileId: -1
+    rtMem: 31168
+    refs:
+    - 2
+  - onDemandDownload: 1
+    assetPath: Assets/Music/Fall/Sounds/GLASS_Fragment_01_mono.wav
+    localFileId: -1
+    rtMem: 8128
+    refs:
+    - 2
+  - onDemandDownload: 1
+    assetPath: Assets/Music/Fall/Sounds/GLASS_Fragment_02_mono.wav
+    localFileId: -1
+    rtMem: 10880
+    refs:
+    - 2
+  - onDemandDownload: 1
+    assetPath: Assets/Music/Fall/Sounds/GLASS_Fragment_03_mono.wav
+    localFileId: -1
+    rtMem: 7136
+    refs:
+    - 2
+  - onDemandDownload: 1
+    assetPath: Assets/Music/Fall/Sounds/GLASS_Fragment_04_mono.wav
+    localFileId: -1
+    rtMem: 7840
+    refs:
+    - 2
+  - onDemandDownload: 1
+    assetPath: Assets/Music/Fall/Sounds/GLASS_Fragment_05_mono.wav
+    localFileId: -1
+    rtMem: 7072
+    refs:
+    - 2
+  - onDemandDownload: 1
+    assetPath: Assets/Music/Fall/Sounds/GORE_Splat_Hit_Bubbles_mono.wav
+    localFileId: -1
+    rtMem: 13344
+    refs:
+    - 2
+  - onDemandDownload: 1
+    assetPath: Assets/Music/Fall/Sounds/GORE_Stab_01_mono.wav
+    localFileId: -1
+    rtMem: 6304
+    refs:
+    - 2
+  - onDemandDownload: 1
+    assetPath: Assets/Music/Fall/Sounds/GORE_Stab_02_mono.wav
+    localFileId: -1
+    rtMem: 11296
+    refs:
+    - 2
+  - onDemandDownload: 1
+    assetPath: Assets/Music/Fall/Sounds/GORE_Stab_03_mono.wav
+    localFileId: -1
+    rtMem: 6112
+    refs:
+    - 2
+  - onDemandDownload: 1
+    assetPath: Assets/Music/Fall/Sounds/candy_big_normal.wav
+    localFileId: -1
+    rtMem: 87136
+    refs:
+    - 2
+  - onDemandDownload: 1
+    assetPath: Assets/Music/Fall/Sounds/cartoon_boing_jump_a.wav
+    localFileId: -1
+    rtMem: 7808
+    refs:
+    - 2
+  - onDemandDownload: 1
+    assetPath: Assets/Music/Fall/Sounds/cartoon_boing_jump_b.wav
+    localFileId: -1
+    rtMem: 6400
+    refs:
+    - 2
+  - onDemandDownload: 1
+    assetPath: Assets/Music/Fall/Sounds/checkpoint.wav
+    localFileId: -1
+    rtMem: 137856
+    refs:
+    - 2
+  - onDemandDownload: 1
+    assetPath: Assets/Music/Fall/Sounds/failed_UI_Error_Orchestral_Brass_stereo.wav
+    localFileId: -1
+    rtMem: 62272
+    refs:
+    - 2
+  - onDemandDownload: 1
+    assetPath: Assets/Music/Fall/Sounds/rejtett_utvonal_pickup.wav
+    localFileId: -1
+    rtMem: 47584
+    refs:
+    - 2
+  - onDemandDownload: 1
+    assetPath: Assets/Music/Fall/Sounds/sci-fi_forcefield_hum_loop_02.wav
+    localFileId: -1
+    rtMem: 262880
+    refs:
+    - 2
+  - onDemandDownload: 1
+    assetPath: Assets/Music/Fall/Sounds/stargate_start_collect_item_13.wav
+    localFileId: -1
+    rtMem: 22112
+    refs:
+    - 2
+  - onDemandDownload: 0
+    assetPath: Assets/Music/Fall/Sounds/switch_BUTTON_Click_Organic_Glove_Compartment_01_stereo.wav
+    localFileId: -1
+    rtMem: 4320
+    refs:
+    - 2
+  - onDemandDownload: 1
+    assetPath: Assets/Music/Fall/Sounds/target_spring_sound_02.wav
+    localFileId: -1
+    rtMem: 72192
+    refs:
+    - 2
+  - onDemandDownload: 1
+    assetPath: Assets/Resources/Afternoon Boredom (Loop).wav
+    localFileId: -1
+    rtMem: 4979648
+    refs:
+    - res
+  - onDemandDownload: 1
+    assetPath: Assets/Resources/Another One Kiss the Bride.wav
+    localFileId: -1
+    rtMem: 3992352
+    refs:
+    - res
+  - onDemandDownload: 1
+    assetPath: Assets/Resources/AyO(Loop).wav
+    localFileId: -1
+    rtMem: 7056064
+    refs:
+    - res
+  - onDemandDownload: 1
+    assetPath: Assets/Resources/Give it Up! Bouncy (Main Menu)_Loop.wav
+    localFileId: -1
+    rtMem: 3379040
+    refs:
+    - res
+  - onDemandDownload: 1
+    assetPath: Assets/Resources/M_Tibi - 02 !Pre Release! [Minor F,128Bpm] (Prod_by
+      C-Slim).mp3
+    localFileId: -1
+    rtMem: 5124352
+    refs:
+    - res
+  - onDemandDownload: 1
+    assetPath: Assets/Resources/M_Tibi - 10 !Pre Release! [Minor F,150Bpm] (Prod_by
+      C-Slim).mp3
+    localFileId: -1
+    rtMem: 2745824
+    refs:
+    - res
+  - onDemandDownload: 1
+    assetPath: Assets/Resources/M_Tibi - 11 !Pre Release! [Minor A,150Bpm] (Prod_by
+      C-Slim).mp3
+    localFileId: -1
+    rtMem: 2920576
+    refs:
+    - res
+  - onDemandDownload: 1
+    assetPath: Assets/Resources/M_Tibi - 12  2#  !Pre Release!  [Minor A,120Bpm]
+      (Prod_by C-Slim).mp3
+    localFileId: -1
+    rtMem: 3694432
+    refs:
+    - res
+  - onDemandDownload: 1
+    assetPath: Assets/Resources/Never Give Up (Loop).wav
+    localFileId: -1
+    rtMem: 5606016
+    refs:
+    - res
+  mMeshes:
+  - onDemandDownload: 0
+    assetPath: Assets/Graphics/Meshes/coin.FBX:coin
+    localFileId: 2159703810824169821
+    rtMem: 2880
+    refs:
+    - 2
+  - onDemandDownload: 0
+    assetPath: Assets/Graphics/Meshes/booster_item.FBX:booster_item
+    localFileId: 349662889544909139
+    rtMem: 9504
+    refs:
+    - 2
+  - onDemandDownload: 0
+    assetPath: Assets/Graphics/Meshes/Platform_v4.FBX:platform_lod2_glass2
+    localFileId: -7532318658631224969
+    rtMem: 8352
+    refs:
+    - 2
+  - onDemandDownload: 0
+    assetPath: Assets/Graphics/Meshes/Platform_v4.FBX:platform_lod2_glass2_part13
+    localFileId: -7102244560488634533
+    rtMem: 2304
+    refs:
+    - 2
+    - res
+  - onDemandDownload: 0
+    assetPath: Assets/Graphics/Meshes/Platform_v4.FBX:platform_lod2_glass2_part6
+    localFileId: -7030224111377164491
+    rtMem: 2304
+    refs:
+    - 2
+    - res
+  - onDemandDownload: 0
+    assetPath: Assets/Graphics/Meshes/Platform_v4.FBX:platform_lod2_glass2_part11
+    localFileId: -5402046930619930155
+    rtMem: 2688
+    refs:
+    - 2
+    - res
+  - onDemandDownload: 0
+    assetPath: Assets/Graphics/Meshes/Platform_v4.FBX:platform_lod2_glass2_part7
+    localFileId: -4890554527083919046
+    rtMem: 3936
+    refs:
+    - 2
+    - res
+  - onDemandDownload: 0
+    assetPath: Assets/Graphics/Meshes/Platform_v4.FBX:platform_lod2_glass2_part2
+    localFileId: -2661108201025143009
+    rtMem: 3264
+    refs:
+    - 2
+    - res
+  - onDemandDownload: 0
+    assetPath: Assets/Graphics/Meshes/Platform_v4.FBX:platform_lod2_glass2_part12
+    localFileId: -1637410507438153805
+    rtMem: 2208
+    refs:
+    - 2
+    - res
+  - onDemandDownload: 0
+    assetPath: Assets/Graphics/Meshes/Platform_v4.FBX:platform_lod2_glass2_part10
+    localFileId: -1424579236808939253
+    rtMem: 4608
+    refs:
+    - 2
+    - res
+  - onDemandDownload: 0
+    assetPath: Assets/Graphics/Meshes/Platform_v4.FBX:platform_lod2_spike
+    localFileId: -1038327969259129584
+    rtMem: 4512
+    refs:
+    - 2
+  - onDemandDownload: 0
+    assetPath: Assets/Graphics/Meshes/Platform_v4.FBX:platform_lod2_glass2_part8
+    localFileId: 797162473048862928
+    rtMem: 3072
+    refs:
+    - 2
+    - res
+  - onDemandDownload: 0
+    assetPath: Assets/Graphics/Meshes/Platform_v4.FBX:platform_lod2_glass2_part4
+    localFileId: 1213100059732086814
+    rtMem: 2592
+    refs:
+    - 2
+    - res
+  - onDemandDownload: 0
+    assetPath: Assets/Graphics/Meshes/Platform_v4.FBX:platform_lod2_glass2_part9
+    localFileId: 6173293993760176232
+    rtMem: 2016
+    refs:
+    - 2
+    - res
+  - onDemandDownload: 0
+    assetPath: Assets/Graphics/Meshes/Platform_v4.FBX:platform_lod2_glass2_part5
+    localFileId: 6561837782209342699
+    rtMem: 1728
+    refs:
+    - 2
+    - res
+  - onDemandDownload: 0
+    assetPath: Assets/Graphics/Meshes/Platform_v4.FBX:platform_lod2_glass2_part1
+    localFileId: 7192528214577339404
+    rtMem: 2592
+    refs:
+    - 2
+    - res
+  - onDemandDownload: 0
+    assetPath: Assets/Graphics/Meshes/Platform_v4.FBX:platform_lod2
+    localFileId: 7702823826008164138
+    rtMem: 3360
+    refs:
+    - 2
+  - onDemandDownload: 0
+    assetPath: Assets/Graphics/Meshes/Platform_v4.FBX:platform_lod2_glass2_part3
+    localFileId: 8165090095439773769
+    rtMem: 2016
+    refs:
+    - 2
+    - res
   mConfigCCD:
-    useCCD: 0
-    cosKey: 
-    projectGuid: 
-    bucketUuid: 
-    bucketName: 
-    badgeName: 
+    useCCD: 1
+    cosKey: f1c53529bbd9d281f4f39637c4671e15
+    projectGuid: 4a511d87-8f0f-471e-b57c-bd4f29ced55c
+    bucketUuid: 83abc24e-44bd-4296-bcc7-082966b440e9
+    bucketName: giveitupfall
+    badgeName: 01

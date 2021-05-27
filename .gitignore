@@ -12,7 +12,7 @@
 /giu-fall/IGOutput/
 /giu-fall/build/
 /giu-fall/Android/
-/giu-fall/Assets/InstantGameData/
+/giu-fall/Assets/AutoStreamingData/
 
 # Asset meta data should only be ignored when the corresponding asset is also ignored
 !/giu-fall/[Aa]ssets/**/*.meta
