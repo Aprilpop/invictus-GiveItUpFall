@@ -73,6 +73,7 @@ AutoStreamingSettings:
     rtMem: 0
     abSize: 128188
     refs:
+    - 2
     - res
   - usePlaceholder: 0
     assetPath: Assets/AutoStreamingData/AutoConvert/candy.spriteatlas
@@ -413,7 +414,7 @@ AutoStreamingSettings:
   - usePlaceholder: 1
     assetPath: Assets/Graphics/giu_dash_ui01.png
     placeholderPath: Assets/AutoStreamingData/Placeholders/Assets/Graphics/giu_dash_ui01.png
-    useBlurPlaceholder: 0
+    useBlurPlaceholder: 1
     width: 2048
     height: 2048
     rtMem: 16777216
