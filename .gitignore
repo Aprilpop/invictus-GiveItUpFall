@@ -68,3 +68,5 @@ crashlytics-build.properties
 #documentation
 .xlsx
 
+obj
+/giu-fall/Library

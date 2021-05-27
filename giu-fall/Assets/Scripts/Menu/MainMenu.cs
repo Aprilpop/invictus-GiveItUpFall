@@ -134,7 +134,7 @@ public class MainMenu : Menu
         {
             gameNameTitle.sprite = englishSprite;
         }
-        else if (LocalizationManager.Instance.CurrentLanguage.Name == "中文(简体)"/*"Chinese"*/)
+        else //if (LocalizationManager.Instance.CurrentLanguage.Name == "中文(简体)"/*"Chinese"*/)
         {
             gameNameTitle.sprite = chineseSprite;
         }
