@@ -1,0 +1,57 @@
+#
+# Sprite sheet data for Unity.
+#
+# To import these sprites into your Unity project, download "TexturePackerImporter":
+# https://www.codeandweb.com/texturepacker/unity
+#
+# $TexturePacker:SmartUpdate:b179857fcd3ab167725c217150136562:767d22e918c999431fa6c71394f00eb8:fae705c7119b8db2e568fbdf6b39325f$
+#
+:format=40300
+:texture=giu_dash_laboratory.png
+:size=2048x2048
+:pivotpoints=enabled
+:borders=disabled
+:alphahandling=ClearTransparentPixels
+
+book_vial1;1702;116;153;179; 0.5;0.5; 0;0;0;0
+container_bg;1823;1196;64;256; 0.5;0.5; 0;0;0;0
+container_counter;1835;1696;176;351; 0.5;0.5; 0;0;0;0
+container_empty_bottom;808;783;463;550; 0.5;0.5; 0;0;0;0
+container_empty_top;1272;823;463;550; 0.5;0.5; 0;0;0;0
+container_energy_bar_off;302;47;247;50; 0.5;0.5; 0;0;0;0
+container_energy_bar_on;1018;181;247;50; 0.5;0.5; 0;0;0;0
+container_energy_body;554;111;386;109; 0.5;0.5; 0;0;0;0
+container_energy_mask;1736;1108;86;344; 0.5;0.5; 0;0;0;0
+container_feeder_mask;554;56;289;54; 0.5;0.5; 0;0;0;0
+container_full_bottom;554;221;463;550; 0.5;0.5; 0;0;0;0
+container_full_top;1018;232;463;550; 0.5;0.5; 0;0;0;0
+container_full_top_cap;1266;149;200;82; 0.5;0.5; 0;0;0;0
+container_textbubble;1482;287;209;253; 0.5;0.5; 0;0;0;0
+creator_cable01;1482;541;456;281; 0.5;0.5; 0;0;0;0
+creator_drop;941;120;64;100; 0.5;0.5; 0;0;0;0
+creator_dropcolor;1699;1453;188;188; 0.5;0.5; 0;0;0;0
+creator_energyline;1888;385;98;155; 0.5;0.5; 0;0;0;0
+creator_energyline_glow;1910;984;98;155; 0.5;0.5; 0;0;0;0
+creator_machine;1;772;806;561; 0.5;0.5; 0;0;0;0
+drop;1823;1108;53;87; 0.5;0.5; 0;0;0;0
+drop_detail;1888;297;53;87; 0.5;0.5; 0;0;0;0
+energy_bar;2012;1801;34;246; 0.5;0.5; 0;0;0;0
+energy_bar_line;1736;823;25;5; 0.5;0.5; 0;0;0;0
+energy_meter;1699;1642;135;405; 0.5;0.5; 0;0;0;0
+icon_clock;1888;1140;128;128; 0.5;0.5; 0;0;0;0
+icon_energy;1910;855;128;128; 0.5;0.5; 0;0;0;0
+laboratory_icon;1692;296;195;244; 0.5;0.5; 0;0;0;0
+laboratory_machine_inside;1888;1550;145;145; 0.5;0.5; 0;0;0;0
+laboratory_machine_inside_detail;1888;1404;145;145; 0.5;0.5; 0;0;0;0
+laboratory_machine_mixermeter;550;1;150;54; 0.5;0.5; 0;0;0;0
+rack_add;1736;829;173;278; 0.5;0.5; 0;0;0;0
+rack_timer;1;49;300;48; 0.5;0.5; 0;0;0;0
+rack_timer_bar;1;5;294;43; 0.5;0.5; 0;0;0;0
+recipe_book;1;1334;1144;713; 0.5;0.5; 0;0;0;0
+recipe_book_pageL;1146;1374;552;673; 0.5;0.5; 0;0;0;0
+recipe_book_pageR;1;98;552;673; 0.5;0.5; 0;0;0;0
+square;844;46;64;64; 0.5;0.5; 0;0;0;0
+tap_to_create_label;1482;179;219;107; 0.5;0.5; 0;0;0;0
+vial1_color;1888;1269;134;134; 0.5;0.5; 0;0;0;0
+vial_bubble_black;1006;116;64;64; 0.5;0.5; 0;0;0;0
+vial_bubble_white;1071;116;64;64; 0.5;0.5; 0;0;0;0

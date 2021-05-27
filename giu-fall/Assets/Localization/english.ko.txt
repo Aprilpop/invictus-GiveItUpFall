@@ -1,0 +1,144 @@
+{
+
+    "ID_NOTIFICATIONS_REMINDER": "당신의 얼룩이 당신을 그리워합니다!",
+
+    "ID_PLAY": "게임하기",
+
+    "ID_가을": "가을",
+
+    "ID_CLAIM": "청구",
+
+    "ID_HIGHSCORE": "높은 점수",
+
+    "ID_COMPLETED": "레벨 완료!",
+
+    "ID_BONUS": "완전한 보너스",
+
+    "ID_SECOND_CHANCE": "두번째 기회?",
+
+    "ID_NO_THANKS": "고맙지 만 사양 할게",
+
+    "ID_DOUBLE": "더블",
+
+    "ID_TUTORIAL": "타워를 회전",
+
+    "ID_BONUS_LEVEL": "보너스 레벨!",
+
+    "ID_NEW_BLOB": "새로운 물방울",
+
+    "ID_NEW_EFFECT": "새로운 효과",
+
+    "ID_NEW_MUSIC": "새로운 음악",
+
+    "ID_CHARACTERS": "캐릭터",
+
+    "ID_EFFECTS": "효과",
+
+    "ID_SONGS": "노래",
+
+    "ID_NOADS_DESC": "구매 포기! ",
+
+    "ID_NOADS": "광고 없음",
+
+    "ID_BACK": "뒤",
+
+    "ID_확인": "확인",
+
+    "ID_SUCCESS": "성공",
+
+    "ID_ERROR": "오류",
+
+    "ID_OPTIONS": "옵션",
+
+    "ID_CONTROL": "제어",
+
+    "ID_DRAG": "견인",
+
+    "ID_TOUCH": "접촉",
+
+    "ID_RESTORE_PURCHASE": "구매 복구",
+
+    "ID_CREDITS": "크레딧",
+
+    "ID_SOUNDS": "소리",
+
+    "ID_VIB": "진동",
+
+    "ID_LEVEL_NUMBER": "수평",
+
+    "ID_SHOP": "가게",
+
+    "ID_RESTART": "재시작",
+
+    "ID_TUTORIAL_TOUCH": "타워를 회전하려면 \ 왼쪽 또는 오른쪽을 터치 \ n",
+
+    "ID_BUY_RANDOM": "랜덤 구매",
+
+    "ID_MUSIC": "음악",
+
+    "ID_RESTORE_FAIL": "구매 복구 실패",
+
+    "ID_NO_INTERNET": "인터넷에 연결되지 않음",
+
+    "Loading": "로드 중...",
+	
+	"Nextlevel":"다음 관문",
+	
+	"restart":"다시시작한다",
+	
+	"revive":"부활하다",
+	
+	"Pramet1":"좌우슬라이딩스크린제어캐릭터드랍,날카로운가시에부딪히면사망으로간주",
+	
+	"Pramet2":"클릭 하여 캐릭터 드 랍 을 제어, 가시 에 부 딪 히 면 사망 으로 간주",
+	
+	"DailySignIn":"매일출석",
+	
+	"HappyTurntable":"환락룰렛",
+	
+	"SaveSesktop":"데스크톱저장",
+	
+	"Tiktok":"관심떨음",
+	
+	"CountDown":"카운트다운",
+	
+	"Receive":"수령하다",
+	
+	"NextDayLogIn":"다음날로그인",
+	
+	"Day3login":"3일차등록",
+	
+	"RandomRole":"임의역할",
+	
+	"RandomEffects":"랜덤특수효과",
+	
+	"CoinX100":"금화X100",
+	
+	"CoinX120":"금화X120",
+	
+	"CoinX150":"금화X150",
+	
+	"WatchVideoLottery":"영상을보고추첨하다",
+	
+	"CongratulationsOnGetcoinX100":"골드X100획득을축하합니다",
+	
+	"CongratulationsOnGetcoinX200":"골드X200획득을축하합니다",
+	
+	"CongratulationsOnGetcoinX400":"골드X400획득을축하합니다",
+	
+	"CongratulationsOnGetcoinX600":"골드X600획득을축하합니다",
+	
+	"CongratulationsOnGetcoinX800":"골드X800획득을축하합니다",
+	
+	"CongratulationsOnGetcoinX1200":"골드X1200획득을축하합니다",
+	
+	"Define":"확정하다",
+	
+	"DoubleDds":"(광고를보면두배로받을수있다)",
+	
+	"UnlockEffects":"희귀특수효과1개당첨을축하합니다.빨리상점에가서잠금해제특수효과좀보세요!",
+	
+	"UnlockCharacter":"희귀캐릭터중하나를뽑은것을축하합니다.빨리상점에가서어떤캐릭터의자물쇠를풀었는지확인하세요!",
+	
+	"NoTimes":"오늘횟수가이미소진되었으니내일다시오세요!"
+}

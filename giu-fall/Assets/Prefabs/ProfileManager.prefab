@@ -1,0 +1,189 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &895085030521639981
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 895085030521639979}
+  - component: {fileID: 895085030521639978}
+  m_Layer: 0
+  m_Name: ProfileManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &895085030521639979
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 895085030521639981}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.054510117, y: 3.554525, z: -2.7352257}
+  m_LocalScale: {x: 1, y: 1.0000001, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &895085030521639978
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 895085030521639981}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3bd8c1e5f7ecf44ebdb7985e9fe39e2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  randomCharacterPrice: 300
+  randomTrailPrice: 300
+  randomMusicPrice: 300
+  dragControl: 0
+  coinForVideo: 500
+  levelColor: -1
+  coinPickupAmount: 1
+  currentMusic: 0
+  musicsLocks: 000101010101010101
+  coinIncreased: 0
+  tutorialDrag: 0
+  tutorialTouch: 0
+  highScore: 0
+  levelnumber: 0
+  currentBlob: 
+  lastPlayedLevel: 
+  currentTrailName: 
+  boostOnLevel: 0
+  levelLength: 20
+  rewardProgress: 0
+  welcomeNotiTime: 0
+  noAdsPurchased: 0
+  blobs:
+  - name: Blob
+    sprite: {fileID: 21300000, guid: e44d3067f3d14b247890d04e1391f380, type: 3}
+    unlocked: 1
+  - name: Arcade
+    sprite: {fileID: 21300000, guid: b6a287c8a397ccb4ea68738532293824, type: 3}
+    unlocked: 0
+  - name: Bighat
+    sprite: {fileID: 21300000, guid: 5106aa77b779f9749b37f82085a3dd5f, type: 3}
+    unlocked: 0
+  - name: Bully
+    sprite: {fileID: 21300000, guid: e589a3321ec600f4fb37b669f4f7e755, type: 3}
+    unlocked: 0
+  - name: Cat
+    sprite: {fileID: 21300000, guid: 7686965e99d99bc4ea3b7de368695c7b, type: 3}
+    unlocked: 0
+  - name: Centurio
+    sprite: {fileID: 21300000, guid: 1769970384498ab4992803fb22fe9f93, type: 3}
+    unlocked: 0
+  - name: Slush
+    sprite: {fileID: 21300000, guid: d0b0d2fe9d750ce4c8c1f3f4f26c52c9, type: 3}
+    unlocked: 0
+  - name: Foxy
+    sprite: {fileID: 21300000, guid: ccac6b9a61930f04b81cc951090cfd6e, type: 3}
+    unlocked: 0
+  - name: Frankenstein
+    sprite: {fileID: 21300000, guid: 5032cd12fa04a8e46b1e5d830584b7a1, type: 3}
+    unlocked: 0
+  - name: Gamer
+    sprite: {fileID: 21300000, guid: c60d554af58b22447912c44f934d84b0, type: 3}
+    unlocked: 0
+  - name: Geisha
+    sprite: {fileID: 21300000, guid: f764725b077e90f4bbf76ecc2f4db7ec, type: 3}
+    unlocked: 0
+  - name: Glitch
+    sprite: {fileID: 21300000, guid: 72deaaf57705212478aa362549beb0af, type: 3}
+    unlocked: 0
+  - name: Guko
+    sprite: {fileID: 21300000, guid: 28473e9d61556df4f9be138fe21fbd22, type: 3}
+    unlocked: 0
+  - name: Mohawk
+    sprite: {fileID: 21300000, guid: d3412724a854f804e86c00e4d7d8ef96, type: 3}
+    unlocked: 0
+  - name: Ninja
+    sprite: {fileID: 21300000, guid: 23380662d5d1d18448fba7f1b28b3544, type: 3}
+    unlocked: 0
+  - name: Noname
+    sprite: {fileID: 21300000, guid: 382eeff8d787f7d4da4a768e858d6530, type: 3}
+    unlocked: 0
+  - name: Priest
+    sprite: {fileID: 21300000, guid: 84f2bfe18ded15c4980144739499e355, type: 3}
+    unlocked: 0
+  - name: Puffer
+    sprite: {fileID: 21300000, guid: 79ff9253d1b28f34abba9ad484c15aa0, type: 3}
+    unlocked: 0
+  - name: Sister
+    sprite: {fileID: 21300000, guid: efd137a4869d15848aab216cfec5a024, type: 3}
+    unlocked: 0
+  - name: Unicorn
+    sprite: {fileID: 21300000, guid: 3f3a53b8cba58a2419870625d5d807c3, type: 3}
+    unlocked: 0
+  trails:
+  - name: Basic
+    trail: {fileID: 1797669083745734, guid: 9a0ac5fb59c3e8a45abbc6e7d533c2bb, type: 3}
+    unlocked: 1
+  - name: ToyBox
+    trail: {fileID: 1366445611035994, guid: 26fba178108489946a948a19010b9aaa, type: 3}
+    unlocked: 0
+  - name: Wild
+    trail: {fileID: 1430375250684806, guid: 1b0ab523ac9932d458e19e671b885017, type: 3}
+    unlocked: 0
+  - name: Candy
+    trail: {fileID: 1366445611035994, guid: cf4931e470bb2ba4da22c01eb8b19f7b, type: 3}
+    unlocked: 0
+  - name: Clover
+    trail: {fileID: 1366445611035994, guid: 7a46abe92d80f7e4b8bdbb589e6dd23f, type: 3}
+    unlocked: 0
+  - name: Comic
+    trail: {fileID: 1366445611035994, guid: 23890e2405f03f54b86a1048786d2050, type: 3}
+    unlocked: 0
+  - name: Flash
+    trail: {fileID: 1430375250684806, guid: a348702c0a1935d4092bfaafe9292a66, type: 3}
+    unlocked: 0
+  - name: Galaxy
+    trail: {fileID: 1430375250684806, guid: d4ec9d82cb013944d9844998dd04cfdc, type: 3}
+    unlocked: 0
+  - name: Hearts
+    trail: {fileID: 1430375250684806, guid: f0c6c6b33fa274948af21410f33785f2, type: 3}
+    unlocked: 0
+  - name: Holy
+    trail: {fileID: 1430375250684806, guid: 60ca841dbd0dafb48a2431c1472f8c33, type: 3}
+    unlocked: 0
+  - name: Kitten
+    trail: {fileID: 1430375250684806, guid: 9c550c24ac17efd47be42d284c444e64, type: 3}
+    unlocked: 0
+  - name: Lemon
+    trail: {fileID: 1430375250684806, guid: a1b22e2a0b5a4ae44900e979e80162bc, type: 3}
+    unlocked: 0
+  - name: Music
+    trail: {fileID: 1430375250684806, guid: 73f07246c0b3c5b43a49c1a36ec60f13, type: 3}
+    unlocked: 0
+  - name: Piggy
+    trail: {fileID: 1430375250684806, guid: 822177b347d2a604daa340f530afaa2e, type: 3}
+    unlocked: 0
+  - name: Pixel
+    trail: {fileID: 1814441737527978, guid: 707803faaa7e46342bbdee20c727c716, type: 3}
+    unlocked: 0
+  - name: Popcorn
+    trail: {fileID: 1366445611035994, guid: 2d0ff05f0b4c34142bf8d0984a52f25a, type: 3}
+    unlocked: 0
+  - name: Rainbow
+    trail: {fileID: 1430375250684806, guid: 5241db804122b0e4e8b9b924ea510374, type: 3}
+    unlocked: 0
+  - name: Water
+    trail: {fileID: 1430375250684806, guid: a4ebf83a3c976404694504481d5d4eac, type: 3}
+    unlocked: 0
+  - name: Snow
+    trail: {fileID: 1430375250684806, guid: 5b58c1237540ff0479b594e1fcdc4550, type: 3}
+    unlocked: 0
+  - name: Super
+    trail: {fileID: 1218163758388860, guid: 57bd26661abb4a74c9762f95ea50372d, type: 3}
+    unlocked: 0

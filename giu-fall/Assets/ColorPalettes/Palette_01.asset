@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e34997d1b91f634093cf725c4978650, type: 3}
+  m_Name: Palette_01
+  m_EditorClassIdentifier: 
+  info: 
+  colorGroup:
+    Bg1: {r: 0.21119614, g: 0.24528062, b: 0.3962264, a: 1}
+    Bg2: {r: 0.8280304, g: 0.8490566, b: 0.5486828, a: 1}
+    Tower: {r: 0.7252858, g: 0.745283, b: 0.48865256, a: 1}
+    SimplePlatform: {r: 1, g: 1, b: 1, a: 1}
+    GlassPlatform: {r: 0.6745283, g: 1, b: 0.9486097, a: 1}
+    Fog: {r: 0.1254902, g: 0.24313726, b: 0.47843137, a: 1}
+    AmbientColor: {r: 0.23633854, g: 0.27516186, b: 0.4433962, a: 1}
+    SunColor: {r: 1, g: 1, b: 1, a: 1}
+    GroundFog: {r: 0.103462085, g: 0.28363806, b: 0.7075472, a: 1}
+    HeightFog: {r: 0.13794944, g: 0.8904353, b: 0.9433962, a: 1}
+    Spike: {r: 1, g: 1, b: 1, a: 1}

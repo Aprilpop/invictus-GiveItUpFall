@@ -1,0 +1,1 @@
+{"Settings":{"PromoUrl":"http://crosspromo.invictus.com:8888/", "GameName":"giu_fall", "AutomaticDownloadData":"True", "TrackingFunction":"True", "LogMode":"False", "DebugMode":"True"}}

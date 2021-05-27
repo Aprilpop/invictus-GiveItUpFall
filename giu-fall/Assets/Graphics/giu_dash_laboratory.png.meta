@@ -1,0 +1,1282 @@
+fileFormatVersion: 2
+guid: fe0f5866b499ff442b2e06613a7645a6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: giu_dash_laboratory
+  - first:
+      213: 21300002
+    second: laboratory_potion
+  - first:
+      213: 21300004
+    second: laboratory_potion_back
+  - first:
+      213: 21300006
+    second: laboratory_potion_splash01
+  - first:
+      213: 21300008
+    second: laboratory_potion_splash02
+  - first:
+      213: 21300010
+    second: laboratory_potion_splash03
+  - first:
+      213: 21300012
+    second: laboratory_potion_splash04
+  - first:
+      213: 21300014
+    second: laboratory_potion_splash05
+  - first:
+      213: 21300016
+    second: laboratory_potion_splash06
+  - first:
+      213: 21300018
+    second: laboratory_potion_splash07
+  - first:
+      213: 21300020
+    second: laboratory_potion_splash08
+  - first:
+      213: 21300022
+    second: laboratory_potion_splash09
+  - first:
+      213: 21300024
+    second: laboratory_potion_splash10
+  - first:
+      213: 21300026
+    second: laboratory_potion_splash11
+  - first:
+      213: 21300028
+    second: laboratory_potion_splash12
+  - first:
+      213: 21300030
+    second: laboratory_potion_splash13
+  - first:
+      213: 21300032
+    second: laboratory_potion_splash14
+  - first:
+      213: 21300034
+    second: blob_vial_back
+  - first:
+      213: 21300036
+    second: blob_vial_front
+  - first:
+      213: 21300038
+    second: energy_bar
+  - first:
+      213: 21300040
+    second: energy_bar_line
+  - first:
+      213: 21300042
+    second: energy_meter
+  - first:
+      213: 21300044
+    second: icon_clock
+  - first:
+      213: 21300046
+    second: icon_energy
+  - first:
+      213: 21300048
+    second: laboratory_machine
+  - first:
+      213: 21300050
+    second: rack_add
+  - first:
+      213: 21300052
+    second: rack_empty
+  - first:
+      213: 21300054
+    second: rack_left
+  - first:
+      213: 21300056
+    second: rack_middle
+  - first:
+      213: 21300058
+    second: rack_right
+  - first:
+      213: 21300060
+    second: rack_timer
+  - first:
+      213: 21300062
+    second: talk_bubble
+  - first:
+      213: 21300064
+    second: vial1_color
+  - first:
+      213: 21300066
+    second: vial1_glow
+  - first:
+      213: 21300068
+    second: vial1_pipemask
+  - first:
+      213: 21300070
+    second: vial1_shine
+  - first:
+      213: 21300072
+    second: vial2_color
+  - first:
+      213: 21300074
+    second: vial2_glow
+  - first:
+      213: 21300076
+    second: vial2_pipemask
+  - first:
+      213: 21300078
+    second: vial3_color
+  - first:
+      213: 21300080
+    second: vial3_glow
+  - first:
+      213: 21300082
+    second: vial3_pipemask
+  - first:
+      213: 21300084
+    second: vial4_color
+  - first:
+      213: 21300086
+    second: vial4_glow
+  - first:
+      213: 21300088
+    second: vial4_pipemask
+  - first:
+      213: 21300090
+    second: vial5_color
+  - first:
+      213: 21300092
+    second: vial5_glow
+  - first:
+      213: 21300094
+    second: vial5_pipemask
+  - first:
+      213: 21300096
+    second: vial2_shine
+  - first:
+      213: 21300098
+    second: vial3_shine
+  - first:
+      213: 21300100
+    second: vial4_shine
+  - first:
+      213: 21300102
+    second: vial5_shine
+  - first:
+      213: 21300104
+    second: laboratory_machine_inside
+  - first:
+      213: 21300106
+    second: laboratory_machine_inside_detail
+  - first:
+      213: 21300108
+    second: square
+  - first:
+      213: 21300110
+    second: laboratory_machine_mixermeter
+  - first:
+      213: 21300112
+    second: rack
+  - first:
+      213: 21300114
+    second: rack_timer_bar
+  - first:
+      213: 21300116
+    second: recipe_book
+  - first:
+      213: 21300118
+    second: recipe_book_page
+  - first:
+      213: 21300120
+    second: recipe_book_page2
+  - first:
+      213: 21300122
+    second: vial_bubble_black
+  - first:
+      213: 21300124
+    second: vial_bubble_white
+  - first:
+      213: 21300126
+    second: vial_bubbles1
+  - first:
+      213: 21300128
+    second: vial_bubbles2
+  - first:
+      213: 21300130
+    second: book_vial1
+  - first:
+      213: 21300132
+    second: book_vial2
+  - first:
+      213: 21300134
+    second: book_vial3
+  - first:
+      213: 21300136
+    second: book_vial4
+  - first:
+      213: 21300138
+    second: book_vial5
+  - first:
+      213: 21300140
+    second: laboratory_icon
+  - first:
+      213: 21300142
+    second: drop
+  - first:
+      213: 21300144
+    second: drop_detail
+  - first:
+      213: 21300146
+    second: tap_to_create_label
+  - first:
+      213: 21300148
+    second: laboratory_machine2
+  - first:
+      213: 21300150
+    second: creator_cable01
+  - first:
+      213: 21300152
+    second: creator_drop
+  - first:
+      213: 21300154
+    second: creator_dropcolor
+  - first:
+      213: 21300156
+    second: creator_energyline
+  - first:
+      213: 21300158
+    second: creator_energyline_glow
+  - first:
+      213: 21300160
+    second: creator_machine
+  - first:
+      213: 21300162
+    second: container_empty_bottom
+  - first:
+      213: 21300164
+    second: container_empty_top
+  - first:
+      213: 21300166
+    second: container_full_bottom
+  - first:
+      213: 21300168
+    second: container_full_top
+  - first:
+      213: 21300170
+    second: recipe_book_pageL
+  - first:
+      213: 21300172
+    second: recipe_book_pageR
+  - first:
+      213: 21300174
+    second: container_bg
+  - first:
+      213: 21300176
+    second: container_energy_mask
+  - first:
+      213: 21300178
+    second: container_counter
+  - first:
+      213: 21300180
+    second: container_feeder_mask
+  - first:
+      213: 21300182
+    second: container_full_top_cap
+  - first:
+      213: 21300184
+    second: container_textbubble
+  - first:
+      213: -4349972178281437917
+    second: container_energy_bar_off
+  - first:
+      213: -4898805871425533576
+    second: container_energy_bar_on
+  - first:
+      213: 3364536594271238232
+    second: container_energy_body
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: book_vial1
+      rect:
+        serializedVersion: 2
+        x: 1702
+        y: 116
+        width: 153
+        height: 179
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bc986abedd95ff48aa683e3a37b9f80
+      internalID: 21300130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: container_bg
+      rect:
+        serializedVersion: 2
+        x: 1823
+        y: 1196
+        width: 64
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1694350a30302bd4ba88c02575cbe75e
+      internalID: 21300174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: container_counter
+      rect:
+        serializedVersion: 2
+        x: 1835
+        y: 1696
+        width: 176
+        height: 351
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f885c53c7321d54292f14769a8423fa
+      internalID: 21300178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: container_empty_bottom
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 783
+        width: 463
+        height: 550
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ebe54d260962c7438b8c0f8e16a799f
+      internalID: 21300162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: container_empty_top
+      rect:
+        serializedVersion: 2
+        x: 1272
+        y: 823
+        width: 463
+        height: 550
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8089e08f0613330439a0b31aae3f1b0f
+      internalID: 21300164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: container_energy_bar_off
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 47
+        width: 247
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00495e96603d74b40b341eb12c9c188f
+      internalID: -4349972178281437917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: container_energy_bar_on
+      rect:
+        serializedVersion: 2
+        x: 1018
+        y: 181
+        width: 247
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9b9c6522efb3d743855758b53bee842
+      internalID: -4898805871425533576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: container_energy_body
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 111
+        width: 386
+        height: 109
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1347d507e89058f47b92d5551e665e6e
+      internalID: 3364536594271238232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: container_energy_mask
+      rect:
+        serializedVersion: 2
+        x: 1736
+        y: 1108
+        width: 86
+        height: 344
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c112065678af47b4398b21dd3862023a
+      internalID: 21300176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: container_feeder_mask
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 56
+        width: 289
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 13, z: 0, w: 20}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adc3cad06f46845488ebb114a64df79e
+      internalID: 21300180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: container_full_bottom
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 221
+        width: 463
+        height: 550
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ee86d77aa0d240428fdaed2596771a4
+      internalID: 21300166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: container_full_top
+      rect:
+        serializedVersion: 2
+        x: 1018
+        y: 232
+        width: 463
+        height: 550
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43251cd06263c574b9aaacb7a7509b6b
+      internalID: 21300168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: container_full_top_cap
+      rect:
+        serializedVersion: 2
+        x: 1266
+        y: 149
+        width: 200
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44b59ce40cc06ee41b6ee1c7eeb4ad89
+      internalID: 21300182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: container_textbubble
+      rect:
+        serializedVersion: 2
+        x: 1482
+        y: 287
+        width: 209
+        height: 253
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a75cdab96e104d441a1b997f838a1053
+      internalID: 21300184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creator_cable01
+      rect:
+        serializedVersion: 2
+        x: 1482
+        y: 541
+        width: 456
+        height: 281
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fc980b08400b124ea0689c154095275
+      internalID: 21300150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creator_drop
+      rect:
+        serializedVersion: 2
+        x: 941
+        y: 120
+        width: 64
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da769b4a93e42374ea9a2053031e80fe
+      internalID: 21300152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creator_dropcolor
+      rect:
+        serializedVersion: 2
+        x: 1699
+        y: 1453
+        width: 188
+        height: 188
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a6a9ea5674fc38499814795ac979f7a
+      internalID: 21300154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creator_energyline
+      rect:
+        serializedVersion: 2
+        x: 1888
+        y: 385
+        width: 98
+        height: 155
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e8d3c8cb02a65e429b9f7ea2d167568
+      internalID: 21300156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creator_energyline_glow
+      rect:
+        serializedVersion: 2
+        x: 1910
+        y: 984
+        width: 98
+        height: 155
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c46d53ad57a156a46a42787b52c248ed
+      internalID: 21300158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creator_machine
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 772
+        width: 806
+        height: 561
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b074c8b34ccf3034bb84b8a3de728935
+      internalID: 21300160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drop
+      rect:
+        serializedVersion: 2
+        x: 1823
+        y: 1108
+        width: 53
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d63ed9035d63ce4a944bcec0bee2de9
+      internalID: 21300142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drop_detail
+      rect:
+        serializedVersion: 2
+        x: 1888
+        y: 297
+        width: 53
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab7530d0c6546ef4683a2e9ce73f9e52
+      internalID: 21300144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy_bar
+      rect:
+        serializedVersion: 2
+        x: 2012
+        y: 1801
+        width: 34
+        height: 246
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6532174b12bfc17478ecc98132a1e85d
+      internalID: 21300038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy_bar_line
+      rect:
+        serializedVersion: 2
+        x: 1736
+        y: 823
+        width: 25
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c4e574116d3fa142b3b1f25d6399000
+      internalID: 21300040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy_meter
+      rect:
+        serializedVersion: 2
+        x: 1699
+        y: 1642
+        width: 135
+        height: 405
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6225171444f96f438a9b7e873b30d9f
+      internalID: 21300042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icon_clock
+      rect:
+        serializedVersion: 2
+        x: 1888
+        y: 1140
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14c3fbcbad9eff24484c40b127a2a3bd
+      internalID: 21300044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icon_energy
+      rect:
+        serializedVersion: 2
+        x: 1910
+        y: 855
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15de9a9eb89d1ed4984728a1a54a295a
+      internalID: 21300046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laboratory_icon
+      rect:
+        serializedVersion: 2
+        x: 1692
+        y: 296
+        width: 195
+        height: 244
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98e4ba433efde894f9057352b2b6df1b
+      internalID: 21300140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laboratory_machine_inside
+      rect:
+        serializedVersion: 2
+        x: 1888
+        y: 1550
+        width: 145
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f43c6d68c75a50345bdb753a0485f244
+      internalID: 21300104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laboratory_machine_inside_detail
+      rect:
+        serializedVersion: 2
+        x: 1888
+        y: 1404
+        width: 145
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f352a1233f5430478be27c6129d07e0
+      internalID: 21300106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laboratory_machine_mixermeter
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 1
+        width: 150
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: febb1eeb9c55012418e79de356ab9b27
+      internalID: 21300110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rack_add
+      rect:
+        serializedVersion: 2
+        x: 1736
+        y: 829
+        width: 173
+        height: 278
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eadf8485851196e4bba335bc214e9925
+      internalID: 21300050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rack_timer
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 49
+        width: 300
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8131431fef8cd30449bfa38a4943f892
+      internalID: 21300060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rack_timer_bar
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 5
+        width: 294
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f55ef3227387ad44bebd04b2cda7506
+      internalID: 21300114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: recipe_book
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1334
+        width: 1144
+        height: 713
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19f9b9d2fb23325449d962942a0d0f4a
+      internalID: 21300116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: recipe_book_pageL
+      rect:
+        serializedVersion: 2
+        x: 1146
+        y: 1374
+        width: 552
+        height: 673
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0bf55ad201687142b7a169fceffaffd
+      internalID: 21300170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: recipe_book_pageR
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 98
+        width: 552
+        height: 673
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2064073c582608048b4de449669a7b00
+      internalID: 21300172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: square
+      rect:
+        serializedVersion: 2
+        x: 844
+        y: 46
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4dfa98fbe74ab3548807af9bbd7bf037
+      internalID: 21300108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tap_to_create_label
+      rect:
+        serializedVersion: 2
+        x: 1482
+        y: 179
+        width: 219
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5932520e3b235ae488d7f726b4825cb9
+      internalID: 21300146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vial1_color
+      rect:
+        serializedVersion: 2
+        x: 1888
+        y: 1269
+        width: 134
+        height: 134
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 497b8eb66a9e64d4caf0f82464fd0fdd
+      internalID: 21300064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vial_bubble_black
+      rect:
+        serializedVersion: 2
+        x: 1006
+        y: 116
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91d1f13766b60e3429f3a93f2dac375e
+      internalID: 21300122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vial_bubble_white
+      rect:
+        serializedVersion: 2
+        x: 1071
+        y: 116
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 054ec4e218e202f4aa76965fcb4698a3
+      internalID: 21300124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 917a746043c5e9c4db295b862f85ee2e
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

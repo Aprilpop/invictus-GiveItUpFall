@@ -1,0 +1,144 @@
+{
+
+    "ID_NOTIFICATIONS_REMINDER": "あなたのブロブにあなたがいません！",
+
+    "ID_PLAY": "タップしてプレイ",
+
+    "ID_秋": "秋",
+
+    "ID_CLAIM": "請求",
+
+    "ID_HIGHSCORE": "高得点",
+
+    "ID_COMPLETED": "レベル達成！",
+
+    "ID_BONUS": "完全なボーナス",
+
+    "ID_SECOND_CHANCE": "二度目のチャンス？",
+
+    "ID_NO_THANKS": "結構です",
+
+    "ID_DOUBLE": "ダブル",
+
+    "ID_TUTORIAL": "タワーを回転させる",
+
+    "ID_BONUS_LEVEL": "ボーナスレベル！",
+
+    "ID_NEW_BLOB": "新しいブロブ",
+
+    "ID_NEW_EFFECT": "新しい効果",
+
+    "ID_NEW_MUSIC": "新しい音楽",
+
+    "ID_CHARACTERS": "キャラクター",
+
+    "ID_EFFECTS": "効果",
+
+    "ID_SONGS": "曲",
+
+    "ID_NOADS_DESC": "ギブ・イット・アップ！ ",
+
+    "ID_NOADS": "広告なし",
+
+    "ID_BACK": "バック",
+
+    "ID_OK": "OK",
+
+    "ID_SUCCESS": "成功",
+
+    "ID_ERROR": "エラー",
+
+    "ID_OPTIONS": "オプション",
+
+    "ID_CONTROL": "コントロール",
+
+    "ID_DRAG": "引っ張る",
+
+    "ID_TOUCH": "接する",
+
+    "ID_RESTORE_PURCHASE": "購入商品を復元する",
+
+    "ID_CREDITS": "クレジット",
+
+    "ID_SOUNDS": "音",
+
+    "ID_VIB": "しんどう",
+
+    "ID_LEVEL_NUMBER": "レベル",
+
+    "ID_SHOP": "ショップ",
+
+    "ID_RESTART": "再起動",
+
+    "ID_TUTORIAL_TOUCH": "\左側または右側をタッチして\ nタワーを回転させます",
+
+    "ID_BUY_RANDOM": "ランダムで購入",
+
+    "ID_MUSIC": "音楽",
+
+    "ID_RESTORE_FAIL": "購入の復元に失敗しました",
+
+    "ID_NO_INTERNET": "インターネット接続なし",
+
+    "Loading": "読み込み中...",
+	
+	"Nextlevel":"次のステージ",
+	
+	"restart":"新たに始める",
+	
+	"revive":"よみがえる",
+	
+	"Pramet1":"画面を左右にスライドさせて、キャラクターを落とします",
+	
+	"Pramet2":"スクリーンをクリックしてキャラクターを落とし、スパイクに触れたら死亡となります",
+	
+	"DailySignIn":"毎日署名します",
+	
+	"HappyTurntable":"ハッピー・ターン",
+	
+	"SaveSesktop":"デスクトップを保存",
+	
+	"Tiktok":"ドトーンに注目",
+	
+	"CountDown":"カウントダウン",
+	
+	"Receive":"領取",
+	
+	"NextDayLogIn":"翌日ログイン",
+	
+	"Day3login":"三日目にログインします",
+	
+	"RandomRole":"ランダムキャラクター",
+	
+	"RandomEffects":"ランダム効果",
+	
+	"CoinX100":"金貨X100",
+	
+	"CoinX120":"金貨X120",
+	
+	"CoinX150":"金貨X150",
+	
+	"WatchVideoLottery":"動画抽選",
+	
+	"CongratulationsOnGetcoinX100":"金貨獲得X100",
+	
+	"CongratulationsOnGetcoinX200":"金貨獲得X200",
+	
+	"CongratulationsOnGetcoinX400":"金貨獲得X400",
+	
+	"CongratulationsOnGetcoinX600":"金貨獲得X600",
+	
+	"CongratulationsOnGetcoinX800":"金貨獲得X800",
+	
+	"CongratulationsOnGetcoinX1200":"金貨獲得X1200",
+	
+	"Define":"選択",
+	
+	"DoubleDds":"(広告二倍になります)",
+	
+	"UnlockEffects":"特効に当たりました早くお店に行ってロック解除の効果を見てみてください。",
+	
+	"UnlockCharacter":"珍しいキャラクターに当たりました早くお店に行って、ロック解除の役を見てみてください",
+	
+	"NoTimes":"今日は回数が尽きました。明日また来てください。"
+}

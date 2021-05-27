@@ -1,0 +1,220 @@
+{
+  "header": {
+    "header-title": "Only visible if no image is given",
+    "image-link": "http://crosspromo.invictus.com:8888/banner/default_nonexisting.png",
+    "image-data": "iVBORw0KGgoAAAANSUhEUgAAAoAAAAA4CAIAAADiqd5FAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYxIDY0LjE0MDk0OSwgMjAxMC8xMi8wNy0xMDo1NzowMSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNS4xIFdpbmRvd3MiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6MzY1QTlCNTFEMUY2MTFFNEIyNzFDRUQ1NEI4RUExNEIiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6MzY1QTlCNTJEMUY2MTFFNEIyNzFDRUQ1NEI4RUExNEIiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDozNjVBOUI0RkQxRjYxMUU0QjI3MUNFRDU0QjhFQTE0QiIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDozNjVBOUI1MEQxRjYxMUU0QjI3MUNFRDU0QjhFQTE0QiIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/Ph66Tt4AAAzoSURBVHja7J0PTBRX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"
+  },
+  "settings": {
+    "icon_display_time": 1000
+  },
+  "games": [
+    {
+      "local_video_id": "deeprealm",
+      "name": "Deeprealm Odyssey - Adventure game",
+      "short_name": "Deeprealm",
+      "description": "Explore the atmospheric world below the earth.",
+      "short_description": "Explore the atmospheric world below the earth.",
+      "download-link": "https://play.google.com/store/apps/details?id=com.invictus.dungeonpit",
+      "image-link": "http://crosspromo.invictus.com:8888/img/giveitup_collection.png",
+      "localized_name": [
+        {
+          "SystemLanguage": "Hungarian",
+          "value": "Róka játék!"
+        },
+        {
+          "SystemLanguage": "English",
+          "value": "Deeprealm Odyssey - Adventure game"
+        },
+        {
+          "SystemLanguage": "ChineseSimplified",
+          "value": "放弃!"
+        },
+        {
+          "SystemLanguage": "ChineseTraditional",
+          "value": "放棄它!"
+        },
+        {
+          "SystemLanguage": "German",
+          "value": "Es aufgeben!"
+        },
+        {
+          "SystemLanguage": "Japanese",
+          "value": "それを放棄!"
+        },
+        {
+          "SystemLanguage": "Portuguese",
+          "value": "Desistir!"
+        },
+        {
+          "SystemLanguage": "Russian",
+          "value": "Брось это!"
+        }
+      ],
+      "localized_short_name": [
+        {
+          "SystemLanguage": "Hungarian",
+          "value": "Deeprealm"
+        },
+        {
+          "SystemLanguage": "English",
+          "value": "Deeprealm"
+        },
+        {
+          "SystemLanguage": "ChineseSimplified",
+          "value": "放弃!"
+        },
+        {
+          "SystemLanguage": "ChineseTraditional",
+          "value": "放棄它!"
+        },
+        {
+          "SystemLanguage": "German",
+          "value": "Es aufgeben!"
+        },
+        {
+          "SystemLanguage": "Japanese",
+          "value": "それを放棄!"
+        },
+        {
+          "SystemLanguage": "Portuguese",
+          "value": "Desistir!"
+        },
+        {
+          "SystemLanguage": "Russian",
+          "value": "Брось это!"
+        }
+      ],
+      "localized_description": [
+        {
+          "SystemLanguage": "Hungarian",
+          "value": "A Játék"
+        },
+        {
+          "SystemLanguage": "English",
+          "value": "The Game"
+        },
+        {
+          "SystemLanguage": "ChineseSimplified",
+          "value": "游戏"
+        },
+        {
+          "SystemLanguage": "ChineseTraditional",
+          "value": "遊戲"
+        },
+        {
+          "SystemLanguage": "German",
+          "value": "Das Spiel"
+        },
+        {
+          "SystemLanguage": "Japanese",
+          "value": "ゲーム"
+        },
+        {
+          "SystemLanguage": "Portuguese",
+          "value": "O jogo"
+        },
+        {
+          "SystemLanguage": "Russian",
+          "value": "Игра"
+        }
+      ],
+      "localized_short_description": [
+        {
+          "SystemLanguage": "Hungarian",
+          "value": "Explore the atmospheric world below the earth."
+        },
+        {
+          "SystemLanguage": "English",
+          "value": "Explore the atmospheric world below the earth."
+        },
+        {
+          "SystemLanguage": "ChineseSimplified",
+          "value": "_游戏_"
+        },
+        {
+          "SystemLanguage": "ChineseTraditional",
+          "value": "_遊戲_"
+        },
+        {
+          "SystemLanguage": "German",
+          "value": "_Das Spiel_"
+        },
+        {
+          "SystemLanguage": "Japanese",
+          "value": "_ゲーム_"
+        },
+        {
+          "SystemLanguage": "Portuguese",
+          "value": "_O jogo_"
+        },
+        {
+          "SystemLanguage": "Russian",
+          "value": "_Игра_"
+        }
+      ]
+    },
+    {
+      "local_video_id": "ropecity",
+      "name": "Ropecity",
+      "description": "The game is fun.",
+      "download-link": "https://play.google.com/store/apps/details?id=com.invictus.dungeonpit",
+      "image-link": "http://crosspromo.invictus.com:8888/img/giveitup_collection.png"
+    },
+    {
+      "local_video_id": "daytona",
+      "short_name": "Daytona Rush",
+      "short_description": "The game is fun.",
+      "download-link": "https://play.google.com/store/apps/details?id=com.invictus.dungeonpit",
+      "image-link": "http://crosspromo.invictus.com:8888/img/giveitup_collection.png"
+    },
+    {
+      "local_video_id": "dustoff_1",
+      "short_name": "Dusoff 1",
+      "short_description": "The game is fun.",
+      "download-link": "https://play.google.com/store/apps/details?id=com.invictus.dungeonpit",
+      "image-link": "http://crosspromo.invictus.com:8888/img/giveitup_collection.png"
+    },
+    {
+      "local_video_id": "dustoff_2",
+      "short_name": "Dustoff 2",
+      "short_description": "The game is fun.",
+      "download-link": "https://play.google.com/store/apps/details?id=com.invictus.dungeonpit",
+      "image-link": "http://crosspromo.invictus.com:8888/img/giveitup_collection.png"
+    },
+    {
+      "local_video_id": "giu_1",
+      "short_name": "Give It Up!",
+      "short_description": "The game is fun.",
+      "download-link": "https://play.google.com/store/apps/details?id=com.invictus.dungeonpit",
+      "image-link": "http://crosspromo.invictus.com:8888/img/giveitup_collection.png"
+    },
+    {
+      "local_video_id": "giu_2",
+      "short_name": "Give It Up! 2",
+      "short_description": "The game is fun.",
+      "download-link": "https://play.google.com/store/apps/details?id=com.invictus.dungeonpit",
+      "image-link": "http://crosspromo.invictus.com:8888/img/giveitup_collection.png"
+    },
+    {
+      "local_video_id": "giu_bouncy",
+      "short_name": "Give It Up! Bouncy",
+      "short_description": "The game is fun.",
+      "download-link": "https://play.google.com/store/apps/details?id=com.invictus.dungeonpit",
+      "image-link": "http://crosspromo.invictus.com:8888/img/giveitup_collection.png"
+    },
+    {
+      "local_video_id": "giu_fall",
+      "short_name": "Give It Up! Fall",
+      "short_description": "The game is fun.",
+      "download-link": "https://play.google.com/store/apps/details?id=com.invictus.dungeonpit",
+      "image-link": "http://crosspromo.invictus.com:8888/img/giveitup_collection.png"
+    },
+    {
+      "local_video_id": "giu_stack",
+      "short_name": "Give It Up! Stack",
+      "short_description": "The game is fun.",
+      "download-link": "https://play.google.com/store/apps/details?id=com.invictus.dungeonpit",
+      "image-link": "http://crosspromo.invictus.com:8888/img/giveitup_collection.png"
+    }
+  ]
+}

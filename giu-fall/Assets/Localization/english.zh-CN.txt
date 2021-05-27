@@ -1,0 +1,144 @@
+{
+
+    "ID_NOTIFICATIONS_REMINDER": "你的斑点很想念你！",
+
+    "ID_PLAY": "点击开始",
+
+    "ID_FALL": "坠落",
+
+    "ID_CLAIM": "领取",
+
+    "ID_HIGHSCORE": "最高分",
+
+    "ID_COMPLETED": "通关成功！",
+
+    "ID_BONUS": "完成奖金",
+
+    "ID_SECOND_CHANCE": "原地复活？",
+
+    "ID_NO_THANKS": "不用了，谢谢",
+
+    "ID_DOUBLE": "翻倍",
+
+    "ID_TUTORIAL": "旋转塔",
+
+    "ID_BONUS_LEVEL": "奖励关卡！",
+
+    "ID_NEW_BLOB": "新Blob",
+
+    "ID_NEW_EFFECT": "新效果",
+
+    "ID_NEW_MUSIC": "新的音乐",
+
+    "ID_CHARACTERS": "角色",
+
+    "ID_EFFECTS": "特效",
+
+    "ID_SONGS": "歌曲",
+
+    "ID_NOADS_DESC": "没有广告描述！ ",
+
+    "ID_NOADS": "无广告",
+
+    "ID_BACK": "返回",
+
+    "ID_OK": "好的",
+
+    "ID_SUCCESS": "成功",
+
+    "ID_ERROR": "错误",
+
+    "ID_OPTIONS": "设置",
+
+    "ID_CONTROL": "控制",
+
+    "ID_DRAG": "拖动",
+
+    "ID_TOUCH": "触摸",
+
+    "ID_RESTORE_PURCHASE": "恢复购买",
+
+    "ID_CREDITS": "制作团队",
+
+    "ID_SOUNDS": "声音",
+
+    "ID_VIB": "振动",
+
+    "ID_LEVEL_NUMBER": "关卡",
+
+    "ID_SHOP": "商店",
+
+    "ID_RESTART": "重新开始",
+
+    "ID_TUTORIAL_TOUCH": "触摸\左侧或右侧\ n旋转塔架",
+
+    "ID_BUY_RANDOM": "随机购买",
+
+    "ID_MUSIC": "音乐",
+
+    "ID_RESTORE_FAIL": "恢复购买失败",
+
+    "ID_NO_INTERNET": "没有网络连接",
+	
+	"Loading": "加载中...",
+	
+	"Nextlevel":"下一关",
+	
+	"restart":"重新开始",
+	
+	"revive":"复活",
+	
+	"Pramet1":"左右滑动屏幕控制角色掉落，碰到尖刺即视为死亡",
+	
+	"Pramet2":"点击屏幕控制角色掉落，碰到尖刺即视为死亡",
+	
+	"DailySignIn":"每日签到",
+	
+	"HappyTurntable":"欢乐转盘",
+	
+	"SaveSesktop":"保存桌面",
+	
+	"Tiktok":"关注抖音",
+	
+	"CountDown":"倒计时",
+	
+	"Receive":"领取",
+	
+	"NextDayLogIn":"第二天登录",
+	
+	"Day3login":"第三天登录",
+	
+	"RandomRole":"随机角色",
+	
+	"RandomEffects":"随机特效",
+	
+	"CoinX100":"CoinX100",
+	
+	"CoinX120":"CoinX120",
+	
+	"CoinX150":"CoinX150",
+	
+	"WatchVideoLottery":"看视频抽奖",
+	
+	"CongratulationsOnGetcoinX100":"恭喜获得金币X100",
+	
+	"CongratulationsOnGetcoinX200":"恭喜获得金币X200",
+	
+	"CongratulationsOnGetcoinX400":"恭喜获得金币X400",
+	
+	"CongratulationsOnGetcoinX600":"恭喜获得金币X600",
+	
+	"CongratulationsOnGetcoinX800":"恭喜获得金币X800",
+	
+	"CongratulationsOnGetcoinX1200":"恭喜获得金币X1200",
+	
+	"Define":"确定",
+	
+	"DoubleDds":"(观看广告可以双倍获取)",
+	
+	"UnlockEffects":"恭喜抽中了稀有特效一个，快去商店看看解锁了什么特效吧!",
+	
+	"UnlockCharacter":"恭喜抽中了稀有角色一个，快去商店看看解锁了什么角色吧!",
+	
+	"NoTimes":"今日次数已用尽，请明天再来!"
+}

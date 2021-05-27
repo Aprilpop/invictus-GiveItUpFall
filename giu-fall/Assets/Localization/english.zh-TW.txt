@@ -1,0 +1,144 @@
+{
+
+    "ID_NOTIFICATIONS_REMINDER": "你的斑點很想念你！",
+
+    "ID_PLAY": "點擊播放",
+
+    "ID_秋季": "秋季",
+
+    "ID_CLAIM": "要求",
+
+    "ID_HIGHSCORE": "高分",
+
+    "ID_COMPLETED": "級別完成！",
+
+    "ID_BONUS": "完成獎金",
+
+    "ID_SECOND_CHANCE": "第二次機會？",
+
+    "ID_NO_THANKS": "不用了，謝謝",
+
+    "ID_DOUBLE": "雙",
+
+    "ID_TUTORIAL": "旋轉塔",
+
+    "ID_BONUS_LEVEL": "獎金等級！",
+
+    "ID_NEW_BLOB": "新Blob",
+
+    "ID_NEW_EFFECT": "新效果",
+
+    "ID_NEW_MUSIC": "新的音樂",
+
+    "ID_CHARACTERS": "角色",
+
+    "ID_EFFECTS": "特效",
+
+    "ID_SONGS": "歌曲",
+
+    "ID_NOADS_DESC": "購買放棄！ ",
+
+    "ID_NOADS": "無廣告",
+
+    "ID_BACK": "背部",
+
+    "ID_好": "好",
+
+    "ID_SUCCESS": "成功",
+
+    "ID_ERROR": "錯誤",
+
+    "ID_OPTIONS": "選件",
+
+    "ID_CONTROL": "控制",
+
+    "ID_DRAG": "拖動",
+
+    "ID_TOUCH": "觸摸",
+
+    "ID_RESTORE_PURCHASE": "恢復購買",
+
+    "ID_CREDITS": "學分",
+
+    "ID_VIB": "震动",
+
+    "ID_SOUNDS": "聲音",
+
+    "ID_LEVEL_NUMBER": "水平",
+
+    "ID_SHOP": "店",
+
+    "ID_RESTART": "重新開始",
+
+    "ID_TUTORIAL_TOUCH": "觸摸\左側或右側\ n旋轉塔架",
+
+    "ID_BUY_RANDOM": "隨機購買",
+
+    "ID_MUSIC": "音樂",
+
+    "ID_RESTORE_FAIL": "恢復購買失敗",
+
+    "ID_NO_INTERNET": "沒有網絡連接",
+	
+	"Loading": "加载中...",
+	
+	"Nextlevel":"下一關",
+	
+	"restart":"重新開始",
+	
+	"revive":"復活",
+	
+	"Pramet1":"左右滑動荧幕控制角色掉落，碰到尖刺即視為死亡",
+	
+	"Pramet2":"點擊荧幕控制角色掉落，碰到尖刺即視為死亡",
+	
+	"DailySignIn":"每日簽到",
+	
+	"HappyTurntable":"歡樂轉盤",
+	
+	"SaveSesktop":"保存案頭",
+	
+	"Tiktok":"關注抖音",
+	
+	"CountDown":"倒計時",
+	
+	"Receive":"領取",
+	
+	"NextDayLogIn":"第二天登入",
+	
+	"Day3login":"第三天登入",
+	
+	"RandomRole":"隨機角色",
+	
+	"RandomEffects":"隨機特效",
+	
+	"CoinX100":"金幣X100",
+
+	"CoinX120":"金幣X120",
+
+	"CoinX150":"金幣X150",
+	
+	"WatchVideoLottery":"看視頻抽獎",
+	
+	"CongratulationsOnGetcoinX100":"恭喜獲得金幣X100",
+	
+	"CongratulationsOnGetcoinX200":"恭喜獲得金幣X200",
+	
+	"CongratulationsOnGetcoinX400":"恭喜獲得金幣X400",
+	
+	"CongratulationsOnGetcoinX600":"恭喜獲得金幣X600",
+	
+	"CongratulationsOnGetcoinX800":"恭喜獲得金幣X800",
+	
+	"CongratulationsOnGetcoinX1200":"恭喜獲得金幣X1200",
+	
+	"Define":"確定",
+	
+	"DoubleDds":"(觀看廣告可以雙倍獲取)",
+	
+	"UnlockEffects":"恭喜抽中了稀有特效一個，快去商店看看解鎖了什麼特效吧！",
+	
+	"UnlockCharacter":"恭喜抽中了稀有角色一個，快去商店看看解鎖了什麼角色吧!",
+	
+	"NoTimes":"今日次數已用盡，請明天再來！"
+}

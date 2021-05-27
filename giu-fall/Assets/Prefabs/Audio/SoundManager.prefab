@@ -1,0 +1,482 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3657170801920179199
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3657170801920179197}
+  - component: {fileID: 3657170801920179196}
+  m_Layer: 0
+  m_Name: SoundManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3657170801920179197
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3657170801920179199}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.054510117, y: 3.554525, z: -2.7352257}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3657170801920179196
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3657170801920179199}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8be9debd55f704544971f979d1005dab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SoundObjectPrefab: {fileID: 1494479937988718, guid: a742ed677bc6c4444b69ee9c04f48c41,
+    type: 3}
+  Mixer: {fileID: 24100000, guid: 34e6c0b306136f14497cc6f648702eb3, type: 2}
+  DistanceTimeOut: 1
+  sfxArray:
+  - name: PressButton
+    enumId: -1
+    soundType: 0
+    maxCount: -1
+    currentCount: 0
+    waitEnd: 0
+    killOnEnd: 0
+    MaxDistance: -1
+    volume: 0.75
+    SFX2D: 1
+    byPssReverbZones: 1
+    loop: 0
+    randomize: 1
+    RandomPitch: {x: 0.9, y: 1.2}
+    RandomVolume: {x: 0.8, y: 1}
+    useTimeGap: 0
+    GapTime: {x: 0, y: 0}
+    RandomTime: {x: 0, y: 0}
+    sounds:
+    - _volume: 1
+      _pitch: 1
+      clips:
+      - {fileID: 8300000, guid: c9fc6daa2d6c44f45a503894e9dfa7e4, type: 3}
+    mixerGroup: {fileID: 243719882397006484, guid: 34e6c0b306136f14497cc6f648702eb3,
+      type: 2}
+  - name: Glass
+    enumId: -1
+    soundType: 0
+    maxCount: -1
+    currentCount: 0
+    waitEnd: 0
+    killOnEnd: 0
+    MaxDistance: -1
+    volume: 0.75
+    SFX2D: 1
+    byPssReverbZones: 1
+    loop: 0
+    randomize: 1
+    RandomPitch: {x: 0.9, y: 1.2}
+    RandomVolume: {x: 0.8, y: 1}
+    useTimeGap: 0
+    GapTime: {x: 0, y: 0}
+    RandomTime: {x: 0, y: 0}
+    sounds:
+    - _volume: 1
+      _pitch: 1
+      clips:
+      - {fileID: 8300000, guid: 2697bd2576f787d439454984600d4556, type: 3}
+      - {fileID: 8300000, guid: 1b4c8ce7177dee1478d4798bed8c266a, type: 3}
+      - {fileID: 8300000, guid: 684d090526a80b24fb8cdd97f7fa8b4d, type: 3}
+      - {fileID: 8300000, guid: dc2ea13cabfcedb46afcd688419e8d92, type: 3}
+      - {fileID: 8300000, guid: 4798652e549b12047827a16c53116243, type: 3}
+    mixerGroup: {fileID: 243719882397006484, guid: 34e6c0b306136f14497cc6f648702eb3,
+      type: 2}
+  - name: Win
+    enumId: -1
+    soundType: 0
+    maxCount: -1
+    currentCount: 0
+    waitEnd: 0
+    killOnEnd: 0
+    MaxDistance: -1
+    volume: 0.375
+    SFX2D: 1
+    byPssReverbZones: 1
+    loop: 0
+    randomize: 1
+    RandomPitch: {x: 0.9, y: 1.2}
+    RandomVolume: {x: 0.8, y: 1}
+    useTimeGap: 0
+    GapTime: {x: 0, y: 0}
+    RandomTime: {x: 0, y: 0}
+    sounds:
+    - _volume: 1
+      _pitch: 1
+      clips:
+      - {fileID: 8300000, guid: 9217ae9acba142b41ac1a8116924e815, type: 3}
+    mixerGroup: {fileID: 243719882397006484, guid: 34e6c0b306136f14497cc6f648702eb3,
+      type: 2}
+  - name: CoinPickUp
+    enumId: -1
+    soundType: 0
+    maxCount: -1
+    currentCount: 0
+    waitEnd: 0
+    killOnEnd: 0
+    MaxDistance: -1
+    volume: 0.375
+    SFX2D: 1
+    byPssReverbZones: 1
+    loop: 0
+    randomize: 1
+    RandomPitch: {x: 0.9, y: 1.2}
+    RandomVolume: {x: 0.8, y: 1}
+    useTimeGap: 0
+    GapTime: {x: 0, y: 0}
+    RandomTime: {x: 0, y: 0}
+    sounds:
+    - _volume: 1
+      _pitch: 1
+      clips:
+      - {fileID: 8300000, guid: e9780339d7a64b94f9c2e07fd3b72922, type: 3}
+    mixerGroup: {fileID: 243719882397006484, guid: 34e6c0b306136f14497cc6f648702eb3,
+      type: 2}
+  - name: Splash
+    enumId: -1
+    soundType: 0
+    maxCount: -1
+    currentCount: 0
+    waitEnd: 0
+    killOnEnd: 0
+    MaxDistance: -1
+    volume: 0.375
+    SFX2D: 1
+    byPssReverbZones: 1
+    loop: 0
+    randomize: 1
+    RandomPitch: {x: 0.9, y: 1.2}
+    RandomVolume: {x: 0.8, y: 1}
+    useTimeGap: 0
+    GapTime: {x: 0, y: 0}
+    RandomTime: {x: 0, y: 0}
+    sounds:
+    - _volume: 1
+      _pitch: 1
+      clips:
+      - {fileID: 8300000, guid: ff6cbcaa4eec6324e9f0f0d83fc1db1d, type: 3}
+      - {fileID: 8300000, guid: 4570722dc1fce7248bbd8a1401c448b1, type: 3}
+      - {fileID: 8300000, guid: c916010bdf2332c40ab6cc10c5737cf4, type: 3}
+    mixerGroup: {fileID: 243719882397006484, guid: 34e6c0b306136f14497cc6f648702eb3,
+      type: 2}
+  - name: Jump
+    enumId: -1
+    soundType: 0
+    maxCount: -1
+    currentCount: 0
+    waitEnd: 0
+    killOnEnd: 0
+    MaxDistance: -1
+    volume: 0.25
+    SFX2D: 1
+    byPssReverbZones: 1
+    loop: 0
+    randomize: 1
+    RandomPitch: {x: 0.9, y: 1.2}
+    RandomVolume: {x: 0.6, y: 0.7}
+    useTimeGap: 0
+    GapTime: {x: 0, y: 0}
+    RandomTime: {x: 0, y: 0}
+    sounds:
+    - _volume: 1
+      _pitch: 1
+      clips:
+      - {fileID: 8300000, guid: 2bf133394cbad8642aa11df02d93e386, type: 3}
+      - {fileID: 8300000, guid: c9fc6daa2d6c44f45a503894e9dfa7e4, type: 3}
+    mixerGroup: {fileID: 243719882397006484, guid: 34e6c0b306136f14497cc6f648702eb3,
+      type: 2}
+  - name: Die
+    enumId: -1
+    soundType: 0
+    maxCount: -1
+    currentCount: 0
+    waitEnd: 0
+    killOnEnd: 0
+    MaxDistance: -1
+    volume: 0.375
+    SFX2D: 1
+    byPssReverbZones: 1
+    loop: 0
+    randomize: 1
+    RandomPitch: {x: 0.9, y: 1.2}
+    RandomVolume: {x: 1.2, y: 1.3}
+    useTimeGap: 0
+    GapTime: {x: 0, y: 0}
+    RandomTime: {x: 0, y: 0}
+    sounds:
+    - _volume: 1
+      _pitch: 1
+      clips:
+      - {fileID: 8300000, guid: 9eae4e8f4e5c6da47900f51f23f8ac6a, type: 3}
+    mixerGroup: {fileID: 243719882397006484, guid: 34e6c0b306136f14497cc6f648702eb3,
+      type: 2}
+  - name: Boost
+    enumId: -1
+    soundType: 0
+    maxCount: -1
+    currentCount: 0
+    waitEnd: 0
+    killOnEnd: 0
+    MaxDistance: -1
+    volume: 0.375
+    SFX2D: 1
+    byPssReverbZones: 1
+    loop: 0
+    randomize: 1
+    RandomPitch: {x: 0.9, y: 1.2}
+    RandomVolume: {x: 0.8, y: 1}
+    useTimeGap: 0
+    GapTime: {x: 0, y: 0}
+    RandomTime: {x: 0, y: 0}
+    sounds:
+    - _volume: 1
+      _pitch: 1
+      clips:
+      - {fileID: 8300000, guid: 51aff931ed542c649a57004245fc1ee9, type: 3}
+    mixerGroup: {fileID: 243719882397006484, guid: 34e6c0b306136f14497cc6f648702eb3,
+      type: 2}
+  - name: PlatformBreak
+    enumId: -1
+    soundType: 0
+    maxCount: -1
+    currentCount: 0
+    waitEnd: 0
+    killOnEnd: 0
+    MaxDistance: -1
+    volume: 0.375
+    SFX2D: 1
+    byPssReverbZones: 1
+    loop: 0
+    randomize: 1
+    RandomPitch: {x: 0.9, y: 1.2}
+    RandomVolume: {x: 0.8, y: 1}
+    useTimeGap: 0
+    GapTime: {x: 0, y: 0}
+    RandomTime: {x: 0, y: 0}
+    sounds:
+    - _volume: 1
+      _pitch: 1
+      clips:
+      - {fileID: 8300000, guid: fba2ef92df20e764dafde12cfbe47ce8, type: 3}
+    mixerGroup: {fileID: 243719882397006484, guid: 34e6c0b306136f14497cc6f648702eb3,
+      type: 2}
+  - name: BoostEffect
+    enumId: -1
+    soundType: 0
+    maxCount: -1
+    currentCount: 0
+    waitEnd: 0
+    killOnEnd: 0
+    MaxDistance: -1
+    volume: 0.375
+    SFX2D: 1
+    byPssReverbZones: 1
+    loop: 0
+    randomize: 1
+    RandomPitch: {x: 0.9, y: 1.2}
+    RandomVolume: {x: 0.8, y: 1}
+    useTimeGap: 0
+    GapTime: {x: 0, y: 0}
+    RandomTime: {x: 0, y: 0}
+    sounds:
+    - _volume: 1
+      _pitch: 1
+      clips:
+      - {fileID: 8300000, guid: 3469c21008c4c4c4c91a22ca97567763, type: 3}
+    mixerGroup: {fileID: 243719882397006484, guid: 34e6c0b306136f14497cc6f648702eb3,
+      type: 2}
+  - name: NoCoin
+    enumId: -1
+    soundType: 0
+    maxCount: -1
+    currentCount: 0
+    waitEnd: 0
+    killOnEnd: 0
+    MaxDistance: -1
+    volume: 0.375
+    SFX2D: 1
+    byPssReverbZones: 1
+    loop: 0
+    randomize: 1
+    RandomPitch: {x: 0.9, y: 1.2}
+    RandomVolume: {x: 0.8, y: 1}
+    useTimeGap: 0
+    GapTime: {x: 0, y: 0}
+    RandomTime: {x: 0, y: 0}
+    sounds:
+    - _volume: 1
+      _pitch: 1
+      clips:
+      - {fileID: 8300000, guid: 7902405fbc42e864dbe64fc2f5fca9a4, type: 3}
+    mixerGroup: {fileID: 243719882397006484, guid: 34e6c0b306136f14497cc6f648702eb3,
+      type: 2}
+  - name: ProgressReward
+    enumId: -1
+    soundType: 0
+    maxCount: -1
+    currentCount: 0
+    waitEnd: 0
+    killOnEnd: 0
+    MaxDistance: -1
+    volume: 0.375
+    SFX2D: 1
+    byPssReverbZones: 1
+    loop: 0
+    randomize: 1
+    RandomPitch: {x: 0.9, y: 1.2}
+    RandomVolume: {x: 0.8, y: 1}
+    useTimeGap: 0
+    GapTime: {x: 0, y: 0}
+    RandomTime: {x: 0, y: 0}
+    sounds:
+    - _volume: 1
+      _pitch: 1
+      clips:
+      - {fileID: 8300000, guid: b20b23bc7d121f44ab78af1ca49afbc8, type: 3}
+    mixerGroup: {fileID: 243719882397006484, guid: 34e6c0b306136f14497cc6f648702eb3,
+      type: 2}
+  - name: Jump1
+    enumId: -1
+    soundType: 0
+    maxCount: -1
+    currentCount: 0
+    waitEnd: 0
+    killOnEnd: 0
+    MaxDistance: -1
+    volume: 0.375
+    SFX2D: 1
+    byPssReverbZones: 1
+    loop: 0
+    randomize: 1
+    RandomPitch: {x: 0.9, y: 1.2}
+    RandomVolume: {x: 0.8, y: 1}
+    useTimeGap: 0
+    GapTime: {x: 0, y: 0}
+    RandomTime: {x: 0, y: 0}
+    sounds:
+    - _volume: 1
+      _pitch: 1
+      clips:
+      - {fileID: 8300000, guid: 1dd8509521c07b649a5706ef376382a2, type: 3}
+    mixerGroup: {fileID: 243719882397006484, guid: 34e6c0b306136f14497cc6f648702eb3,
+      type: 2}
+  - name: Jump2
+    enumId: -1
+    soundType: 0
+    maxCount: -1
+    currentCount: 0
+    waitEnd: 0
+    killOnEnd: 0
+    MaxDistance: -1
+    volume: 0.375
+    SFX2D: 1
+    byPssReverbZones: 1
+    loop: 0
+    randomize: 1
+    RandomPitch: {x: 0.9, y: 1.2}
+    RandomVolume: {x: 0.8, y: 1}
+    useTimeGap: 0
+    GapTime: {x: 0, y: 0}
+    RandomTime: {x: 0, y: 0}
+    sounds:
+    - _volume: 1
+      _pitch: 1
+      clips:
+      - {fileID: 8300000, guid: 8dfcbd02625dd3c48adfd6df7d5af3d3, type: 3}
+    mixerGroup: {fileID: 243719882397006484, guid: 34e6c0b306136f14497cc6f648702eb3,
+      type: 2}
+  - name: Jump3
+    enumId: -1
+    soundType: 0
+    maxCount: -1
+    currentCount: 0
+    waitEnd: 0
+    killOnEnd: 0
+    MaxDistance: -1
+    volume: 0.375
+    SFX2D: 1
+    byPssReverbZones: 1
+    loop: 0
+    randomize: 1
+    RandomPitch: {x: 0.9, y: 1.2}
+    RandomVolume: {x: 0.8, y: 1}
+    useTimeGap: 0
+    GapTime: {x: 0, y: 0}
+    RandomTime: {x: 0, y: 0}
+    sounds:
+    - _volume: 1
+      _pitch: 1
+      clips:
+      - {fileID: 8300000, guid: 855b8ce818e2eee48944fdac18bfdd49, type: 3}
+    mixerGroup: {fileID: 243719882397006484, guid: 34e6c0b306136f14497cc6f648702eb3,
+      type: 2}
+  - name: ProgressValidate
+    enumId: -1
+    soundType: 0
+    maxCount: -1
+    currentCount: 0
+    waitEnd: 0
+    killOnEnd: 0
+    MaxDistance: -1
+    volume: 0.375
+    SFX2D: 1
+    byPssReverbZones: 1
+    loop: 0
+    randomize: 1
+    RandomPitch: {x: 0.9, y: 1.2}
+    RandomVolume: {x: 0.8, y: 1}
+    useTimeGap: 0
+    GapTime: {x: 0, y: 0}
+    RandomTime: {x: 0, y: 0}
+    sounds:
+    - _volume: 1
+      _pitch: 1
+      clips:
+      - {fileID: 8300000, guid: 2acd2ceecdedcb24fbe24f94a879e08b, type: 3}
+    mixerGroup: {fileID: 243719882397006484, guid: 34e6c0b306136f14497cc6f648702eb3,
+      type: 2}
+  - name: ShowReward
+    enumId: -1
+    soundType: 0
+    maxCount: -1
+    currentCount: 0
+    waitEnd: 0
+    killOnEnd: 0
+    MaxDistance: -1
+    volume: 0.375
+    SFX2D: 1
+    byPssReverbZones: 1
+    loop: 0
+    randomize: 1
+    RandomPitch: {x: 0.9, y: 1.2}
+    RandomVolume: {x: 0.8, y: 1}
+    useTimeGap: 0
+    GapTime: {x: 0, y: 0}
+    RandomTime: {x: 0, y: 0}
+    sounds:
+    - _volume: 1
+      _pitch: 1
+      clips:
+      - {fileID: 8300000, guid: 56772c7a69e0edf4f8ca270edcb375e0, type: 3}
+    mixerGroup: {fileID: 243719882397006484, guid: 34e6c0b306136f14497cc6f648702eb3,
+      type: 2}
