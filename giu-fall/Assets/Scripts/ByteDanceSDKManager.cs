@@ -83,7 +83,8 @@ public class ByteDanceSDKManager
     {
         if (complete)
         {
-            PluginMercury.Instance.AdShowSuccessCallBack("播放完成");
+            Debug.Log("完成");
+            PluginMercury.Instance.AdShowSuccessCallBack("PlayComplete");
         }
     }
 

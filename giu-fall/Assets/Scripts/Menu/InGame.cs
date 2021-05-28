@@ -330,6 +330,9 @@ public class InGame : Menu
 
     private void Win()
     {
+        Debug.Log("Í£Ö¹Â¼ÆÁ");
+        ByteDanceSDKManager.Instance.StopRecord();
+
         backButton.gameObject.SetActive(false);
         winParticles.SetActive(true);
         int completeBonus = (ProfileManager.Instance.levelnumber * 10) / 3;
@@ -419,6 +422,12 @@ public class InGame : Menu
         ByteDanceSDKManager.Instance.StopRecord();
     }
 
+    void StartRecord()
+    {
+        Debug.Log("¿ªÊ¼Â¼ÆÁ");
+        ByteDanceSDKManager.Instance.StartRecord();
+    }
+
     IEnumerator ActivateRestartButton()
     {
         yield return new WaitForSecondsRealtime(delay);
@@ -470,6 +479,8 @@ public class InGame : Menu
             Debug.Log("Analytics: " + "Restart " + Application.version + " " + ProfileManager.Instance.levelnumber.ToString("00000"));
             //GameAnalyticsManager.LogProgressionEvent(GAProgressionStatus.Start, Application.version, ProfileManager.Instance.levelnumber.ToString("00000"));
         }
+
+        StartRecord();
     }
 
     private void Update()
@@ -495,6 +506,7 @@ public class InGame : Menu
     {
         EventDispatcher.Instance.RemoveEventListener(EventKey.AdShowSuccessCallBack, OnVideoPlayOver);
         SecondChance();
+        StartRecord();
     }
 
     void OnOpenCloseButton(bool isActiva)

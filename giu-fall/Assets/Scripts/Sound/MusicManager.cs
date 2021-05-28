@@ -227,7 +227,6 @@ public class MusicManager : MonoBehaviour
 
 	MusicGroup GetCurrent(MusicArrayEnum type)
 	{
-	
 		string sT = Enum.GetName(typeof(MusicArrayEnum), type);
 		return dict[sT];
 	}

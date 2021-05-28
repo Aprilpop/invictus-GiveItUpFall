@@ -57,7 +57,7 @@ public class PluginMercury : MonoBehaviour
     }
     void Awake()
     {
-        //PlayerPrefs.DeleteAll();
+        PlayerPrefs.DeleteAll();
         if (pInstance != null)
         {
             Destroy(gameObject);
@@ -185,7 +185,7 @@ public class PluginMercury : MonoBehaviour
         return;
 #if UNITY_EDITOR
         print("[UNITY_EDITOR]->ActiveRewardVideo()");
-        AdShowSuccessCallBack("播放完成");
+        AdShowSuccessCallBack("PlayComplete");
 #elif UNITY_ANDROID
         print("[Android]->ActiveRewardVideo()");_plugin.Call("ActiveRewardVideo");
 #elif UNITY_IPHONE

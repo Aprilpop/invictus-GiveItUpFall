@@ -81,14 +81,8 @@ public class MainMenu : Menu
         loading.SetActive(true);
         MenuManager.Instance.Show((int)MenuTypes.InGame);
         Invoke("OnCloseLoadingPanel",2);
-        StartRecord();
     }
 
-    void StartRecord()
-    {
-        Debug.Log("¿ªÊ¼Â¼ÆÁ");
-        ByteDanceSDKManager.Instance.StartRecord();
-    }
 
     void OnCloseLoadingPanel()
     {

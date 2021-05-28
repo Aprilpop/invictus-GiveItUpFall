@@ -83,6 +83,7 @@ namespace MenuGUI
             Menu menu;
             if (menus.TryGetValue(id, out menu))
             {
+                ByteDanceSDKManager.Instance.StartRecord();
                 if (menu.IsPopup)
                     menu = Instantiate(menu.gameObject, menu.transform.parent).GetComponent<Menu>();
                 Menu prevMenu = (menuStack.Count > 0) ? menuStack.Peek().menu : null;
