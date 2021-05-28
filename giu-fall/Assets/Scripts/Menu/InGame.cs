@@ -416,6 +416,7 @@ public class InGame : Menu
     void EndRecord()
     {
         Debug.Log("Ω· ¯¬º∆¡");
+        ByteDanceSDKManager.Instance.StopRecord();
     }
 
     IEnumerator ActivateRestartButton()
@@ -506,6 +507,8 @@ public class InGame : Menu
 
     void Share()
     {
+        ByteDanceSDKManager.Instance.onShareResult = ShareReward;
+        ByteDanceSDKManager.Instance.Share();
         Debug.Log("∑÷œÌ");
     }
 

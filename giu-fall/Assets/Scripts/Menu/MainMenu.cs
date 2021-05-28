@@ -52,6 +52,12 @@ public class MainMenu : Menu
         saveDesktopButton.onClick.AddListener(SaveDesktop);
         tiktokButton.onClick.AddListener(FollowDouyinUser);
 
+        if ((int)StarkSDKSpace.StarkSDK.s_ContainerEnv.m_HostEnum == 2 || (int)StarkSDKSpace.StarkSDK.s_ContainerEnv.m_HostEnum == 4)
+        {
+            tiktokButton.gameObject.SetActive(true);
+        }
+        else tiktokButton.gameObject.SetActive(false);
+
         //InvictusMoreGames.MoreGamesBoxController.Instance.Hide();
         //²âÊÔ
         //InvictusMoreGames.MoreGamesBoxController.Instance.onJsonReadSuccess += (bool success) => ShowMoreGames();
@@ -78,6 +84,7 @@ public class MainMenu : Menu
     void StartRecord()
     {
         Debug.Log("¿ªÊ¼Â¼ÆÁ");
+        ByteDanceSDKManager.Instance.StartRecord();
     }
 
     void OnCloseLoadingPanel()
@@ -254,12 +261,14 @@ public class MainMenu : Menu
     void SaveDesktop()
     {
         Debug.Log("SaveDesktop");
+        ByteDanceSDKManager.Instance.SaveToDesktop();
     }
 
     //¹Ø×¢¶¶Òô
     void FollowDouyinUser()
     {
         Debug.Log("FollowDouyinUser");
+        ByteDanceSDKManager.Instance.FollowDouyin();
     }
 
     public void OpenSingInPanel()

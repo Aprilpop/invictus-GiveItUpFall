@@ -1,0 +1,27 @@
+永不言弃掉落：
+APPID：tt7f4709fae07f839107
+AppSecret：568190cd6f2f50096462cd3d022644fb873c16bd
+
+UPID：b4798610-c145-4b39-9e9d-f19d61f4829c
+instant game appid：00000009-609d-44ad-ab05-3c501b511ed9
+coskey：d6ad8360ab5026aecf44e67123c7e49f
+
+
+插屏广告：88fadne60m4kkkkehr
+激励视频广告：312digmjeab8f5oe1o
+banner广告：5hk0bjlmg58917kh29
+
+
+永不言弃登峰：
+APPID：tt1f5d69e08065e39507
+AppSecret：82a5a0a6a21e6de4bb0b9c2499caac94d19f76ee
+
+UPID：ce4726ae-9a03-4201-86e9-8b78eeb8ed6d
+instant game appid：0000000a-ded8-4cea-a8e2-1cb89dcafca8
+coskey：6cd9fdc855c25b9021d01509277cf624
+
+插屏广告：5mch4c0idmjif6kb88
+激励视频广告：l2jr0s3ll615lht4r7
+banner广告：d8d2mbco0il2af5jie
+
+开发者账号UID：276707975894139

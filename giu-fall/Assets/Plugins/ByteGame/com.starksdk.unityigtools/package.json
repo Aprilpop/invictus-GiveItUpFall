@@ -1,0 +1,16 @@
+{
+    "displayName": "Stark SDK - Unity Ig Tools",
+    "name": "com.starksdk.unityigtools",
+    "version": "1.0.5",
+        "description": "ig 调试发布工具",
+    "keywords": [],
+    "category": "Libraries",
+    "links": [
+        {
+            "label": "View Document",
+            "url": "https://bytedance.feishu.cn/docs/doccncUoRqBi4ZJjR0Kog6tzvUc"
+        }
+    ],
+        "unitySinceBuild": "*",
+    "unityUntilBuild": "*"
+}
