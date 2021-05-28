@@ -222,6 +222,7 @@ public class InGame : Menu
         //GameAnalyticsManager.LogProgressionEvent(GAProgressionStatus.Start, Application.version, ProfileManager.Instance.levelnumber.ToString("00000"));
         #endregion
         ResetInGameUI();
+        ByteDanceSDKManager.Instance.StartRecord();
     }
 
     private void ResetInGameUI()
