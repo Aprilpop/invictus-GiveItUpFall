@@ -181,6 +181,8 @@ public class PluginMercury : MonoBehaviour
 
     public void ActiveRewardVideo()
     {
+        ByteDanceSDKManager.Instance.ShowRewardVideo();
+        return;
 #if UNITY_EDITOR
         print("[UNITY_EDITOR]->ActiveRewardVideo()");
         AdShowSuccessCallBack("播放完成");

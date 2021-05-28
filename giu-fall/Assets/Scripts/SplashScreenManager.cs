@@ -60,7 +60,6 @@ public class SplashScreenManager : MonoBehaviour
     {
 
         LoginDialog.SetActive(false);
-        ByteDanceSDKManager.Instance.Initialize();
         //sortSplashes();
         //nextSplash();
         ChannelSplashsSetting();

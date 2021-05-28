@@ -4,7 +4,7 @@ using UnityEngine;
 using StarkSDKSpace;
 using System;
 
-public class ByteDanceSDKManager : MonoBehaviour
+public class ByteDanceSDKManager
 {
     private static ByteDanceSDKManager instance;
 
@@ -14,9 +14,7 @@ public class ByteDanceSDKManager : MonoBehaviour
 
     private bool initialized = false;
 
-    public Action<bool> onRewardVideoResult = delegate { };
-
-    public Action onShareResult = delegate { };
+    public Action onShareResult;
 
     public static ByteDanceSDKManager Instance
     {
@@ -27,12 +25,12 @@ public class ByteDanceSDKManager : MonoBehaviour
             return instance;
         }
     }
-
     public void Initialize()
     {
         if (initialized) return;
         if (Debug.isDebugBuild)
         {
+            Debug.Log("!!!!!!!!!!!!!!!");
             MockSetting.OpenAllMockModule();
         }
         startTime = Time.time;
@@ -77,8 +75,16 @@ public class ByteDanceSDKManager : MonoBehaviour
     #region ads
     public void ShowRewardVideo()
     {
-        StarkSDKSpace.StarkSDK.API.GetStarkAdManager().ShowVideoAdWithId("312digmjeab8f5oe1o", onRewardVideoResult);
+        StarkSDKSpace.StarkSDK.API.GetStarkAdManager().ShowVideoAdWithId("312digmjeab8f5oe1o", VideoReward);
         return;
+    }
+
+    public void VideoReward(bool complete)
+    {
+        if (complete)
+        {
+            PluginMercury.Instance.AdShowSuccessCallBack("播放完成");
+        }
     }
 
     public void ShowInterstitial()

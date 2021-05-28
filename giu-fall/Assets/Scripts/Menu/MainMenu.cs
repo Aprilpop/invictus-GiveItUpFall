@@ -1,4 +1,4 @@
-using UnityEngine;
+ï»¿using UnityEngine;
 using MenuGUI;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
@@ -59,18 +59,21 @@ public class MainMenu : Menu
         else tiktokButton.gameObject.SetActive(false);
 
         //InvictusMoreGames.MoreGamesBoxController.Instance.Hide();
-        //²âÊÔ
+        //Â²Ã¢ÃŠÃ”
         //InvictusMoreGames.MoreGamesBoxController.Instance.onJsonReadSuccess += (bool success) => ShowMoreGames();
         //InvictusMoreGames.MoreGamesBoxController.Instance.onClicked += (string success) =>
         //    GameAnalyticsManager.LogDesignEvent("MoreGamesClicked" + ":" + InvictusMoreGames.MoreGamesBoxController.Instance.gameBox.gameName.GetLanguageElement(SystemLanguage.English).value);
 
         // testOverTipImage.SetActive(PlugingSingmaan.Instance.isDebugMode && PlugingSingmaan.Instance.IsTestOver());
         testTipText.SetActive(PlugingSingmaan.Instance.isDebugMode);
+
+        ByteDanceSDKManager.Instance.Initialize();
     }
 
     void OpenShopPanel()
     {
-        Debug.Log("´ò¿ªÉÌµêBanaer¹ã¸æ");
+        Debug.Log("æ‰“å¼€å•†åº—bannerå¹¿å‘Š");
+        ByteDanceSDKManager.Instance.ShowBanner();
     }
 
     void OnClickPlay()
@@ -83,7 +86,7 @@ public class MainMenu : Menu
 
     void StartRecord()
     {
-        Debug.Log("¿ªÊ¼Â¼ÆÁ");
+        Debug.Log("Â¿ÂªÃŠÂ¼Ã‚Â¼Ã†Ã");
         ByteDanceSDKManager.Instance.StartRecord();
     }
 
@@ -95,7 +98,7 @@ public class MainMenu : Menu
     private void ShowMoreGames()
     {
 
-        //²âÊÔ
+        //Â²Ã¢ÃŠÃ”
         return;
         if (Application.internetReachability != NetworkReachability.NotReachable && InvictusMoreGames.MoreGamesBoxController.Instance.JsonReadSuccess && !InvictusMoreGames.MoreGamesBoxController.Instance.IsActive)
         {
@@ -114,7 +117,7 @@ public class MainMenu : Menu
 
     public void HideMoreGames()
     {
-        //²âÊÔ
+        //Â²Ã¢ÃŠÃ”
         return;
         InvictusMoreGames.MoreGamesBoxController.Instance.Hide();
     }
@@ -141,7 +144,7 @@ public class MainMenu : Menu
         {
             gameNameTitle.sprite = englishSprite;
         }
-        else //if (LocalizationManager.Instance.CurrentLanguage.Name == "ÖĞÎÄ(¼òÌå)"/*"Chinese"*/)
+        else //if (LocalizationManager.Instance.CurrentLanguage.Name == "Ã–ÃÃÃ„(Â¼Ã²ÃŒÃ¥)"/*"Chinese"*/)
         {
             gameNameTitle.sprite = chineseSprite;
         }
@@ -257,14 +260,14 @@ public class MainMenu : Menu
             Application.Quit();
     }
 
-    //±£´æ×ÀÃæ
+    //Â±Â£Â´Ã¦Ã—Ã€ÃƒÃ¦
     void SaveDesktop()
     {
         Debug.Log("SaveDesktop");
         ByteDanceSDKManager.Instance.SaveToDesktop();
     }
 
-    //¹Ø×¢¶¶Òô
+    //Â¹Ã˜Ã—Â¢Â¶Â¶Ã’Ã´
     void FollowDouyinUser()
     {
         Debug.Log("FollowDouyinUser");
