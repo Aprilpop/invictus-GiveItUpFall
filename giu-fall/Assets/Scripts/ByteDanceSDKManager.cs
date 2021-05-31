@@ -30,7 +30,6 @@ public class ByteDanceSDKManager
         if (initialized) return;
         if (Debug.isDebugBuild)
         {
-            Debug.Log("!!!!!!!!!!!!!!!");
             MockSetting.OpenAllMockModule();
         }
         startTime = Time.time;
@@ -48,6 +47,7 @@ public class ByteDanceSDKManager
     public void StopRecord()
     {
         StarkSDK.API.GetStarkGameRecorder().StopRecord();
+        int duration = StarkSDK.API.GetStarkGameRecorder().GetRecordDuration() / 1000;
     }
 
     void ShareReward()
@@ -61,9 +61,10 @@ public class ByteDanceSDKManager
 
     public void Share()
     {
-        int duration = StarkSDK.API.GetStarkGameRecorder().GetRecordDuration();
+        int duration = StarkSDK.API.GetStarkGameRecorder().GetRecordDuration()/1000;
         if (duration > 3 && duration < 600)
         {
+            
             //share topic
             List<string> topics = new List<string>();
             topics.Add("永不言弃掉落");
