@@ -518,7 +518,7 @@ public class InGame : Menu
         shareButton.gameObject.SetActive(isActiva);
     }
 
-    void Share()
+    public void Share()
     {
         ByteDanceSDKManager.Instance.onShareResult = ShareReward;
         ByteDanceSDKManager.Instance.Share();

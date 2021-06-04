@@ -112,11 +112,11 @@
 	
 	"RandomEffects":"随机特效",
 	
-	"CoinX100":"CoinX100",
+	"CoinX100":"金币X100",
 	
-	"CoinX120":"CoinX120",
+	"CoinX120":"金币X120",
 	
-	"CoinX150":"CoinX150",
+	"CoinX150":"金币X150",
 	
 	"WatchVideoLottery":"看视频抽奖",
 	
