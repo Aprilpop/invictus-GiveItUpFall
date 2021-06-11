@@ -51,7 +51,7 @@ public class InGame : Menu
     [SerializeField] GameObject tutorialDragPrompt;
     [SerializeField] GameObject tutorialTouchPrompt;
     IEnumerator restart;
-
+    [SerializeField] GameObject backGroundObject;
     [SerializeField] GameObject rewardProgressBar;
     [SerializeField] GameObject openReward;
 
@@ -244,6 +244,7 @@ public class InGame : Menu
         coinText.text = ProfileManager.Instance.Coin.ToString();
         secondChanceButton.gameObject.SetActive(false);
         restartButton.gameObject.SetActive(false);
+        backGroundObject.SetActive(false);
         OnOpenCloseButton(false);
 
         rewardProgressBar.SetActive(false);
@@ -295,6 +296,7 @@ public class InGame : Menu
     private void RewardProgress()
     {
         rewardProgressBar.gameObject.SetActive(true);
+        backGroundObject.SetActive(true);
     }
 
 
@@ -317,8 +319,9 @@ public class InGame : Menu
     {
         GameLogic.Instance.OnWin();
         OnOpenCloseButton(false);
-        winParticles.SetActive(false);
         completed.SetActive(false);
+        winParticles.SetActive(false);
+        backGroundObject.SetActive(false);
         yield return new WaitForSeconds(5);
         EventDispatcher.Instance.RemoveEventListener(EventKey.AdShowSuccessCallBack, OnNextLevelVideoSuccess);
         //if (ProfileManager.Instance.levelnumber % 5 == 0)
@@ -331,7 +334,6 @@ public class InGame : Menu
 
     private void Win()
     {
-        Debug.Log("Õ£÷π¬º∆¡");
         ByteDanceSDKManager.Instance.StopRecord();
 
         backButton.gameObject.SetActive(false);
@@ -342,7 +344,7 @@ public class InGame : Menu
         ProfileManager.Instance.Coin += completeBonus;
         ProfileManager.Instance.Save();
         completed.SetActive(true);
-
+        backGroundObject.SetActive(true);
         #region GameAnalytics
         //GameAnalyticsManager.LogProgressionEvent(GAProgressionStatus.Complete, ProfileManager.Instance.levelnumber.ToString(), ProfileManager.Instance.Score);
         Debug.Log("Analytics: " + "Complete " + Application.version + " " + ProfileManager.Instance.levelnumber.ToString("00000") + " " + ProfileManager.Instance.Score);
@@ -355,6 +357,7 @@ public class InGame : Menu
     IEnumerator WaitAfterWin()
     {
         yield return new WaitForSeconds(waitAfterWin);
+        backGroundObject.SetActive(false);
         winParticles.SetActive(false);
         completed.SetActive(false);
 
@@ -412,6 +415,7 @@ public class InGame : Menu
             restartText.text = LocalizationManager.Instance.GetString("ID_RESTART");
             Debug.Log("2222");
             restartButton.gameObject.SetActive(true);
+            backGroundObject.SetActive(true);
         }
 
         EndRecord();
@@ -444,7 +448,8 @@ public class InGame : Menu
             secondChanceButton.gameObject.SetActive(false);
             restartButton.gameObject.SetActive(false);
             backButton.gameObject.SetActive(true);
-            GameLogic.Instance.StartFromCheckpoint();
+            backGroundObject.SetActive(false);
+        GameLogic.Instance.StartFromCheckpoint();
         //AdManagerIronsrc.Instance.ShowVideoAd(results =>
         //{
         //    if (results)
@@ -516,18 +521,17 @@ public class InGame : Menu
         newRestartButton.gameObject.SetActive(isActiva);
         reviveButton.gameObject.SetActive(isActiva);
         shareButton.gameObject.SetActive(isActiva);
+        backGroundObject.SetActive(isActiva);
     }
 
     public void Share()
     {
         ByteDanceSDKManager.Instance.onShareResult = ShareReward;
         ByteDanceSDKManager.Instance.Share();
-        Debug.Log("∑÷œÌ");
     }
 
     void ShareReward()
     { 
         ProfileManager.Instance.Coin += 300;
-        Debug.Log("∑÷œÌΩ±¿¯");
     }
 }
