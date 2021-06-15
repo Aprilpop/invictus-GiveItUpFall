@@ -24,4 +24,16 @@ coskey：6cd9fdc855c25b9021d01509277cf624
 激励视频广告：l2jr0s3ll615lht4r7
 banner广告：d8d2mbco0il2af5jie
 
+永不言弃蹦跶：
+APPID：ttcc49baf45371428807
+AppSecret：dc8d16009acbe9d1fca5a7422fc936dfae6d35f8
+uid: 276707975894139
+CDD APPID：26110e7c-bed0-4cb1-86a3-ed74598a3178
+
+
+广告参数：
+banner广告：220d68bhf4f738xwc7
+视频广告：4g1oqcndbqnjee5x9d
+插屏广告：kmhfg51gclc2ihghjn
+
 开发者账号UID：276707975894139

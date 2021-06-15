@@ -29,29 +29,6 @@ AutoStreamingSettings:
     refs:
     - 2
     - res
-  - usePlaceholder: 1
-    assetPath: Assets/AutoStreamingData/AutoConvert/MainMenu Graphics.spriteatlas
-    placeholderPath: Assets/AutoStreamingData/Placeholders/Assets/AutoStreamingData/AutoConvert/MainMenu
-      Graphics.spriteatlas
-    useBlurPlaceholder: 0
-    width: 0
-    height: 0
-    rtMem: 0
-    abSize: 25522
-    refs:
-    - 2
-    - res
-  - usePlaceholder: 0
-    assetPath: Assets/AutoStreamingData/AutoConvert/More Games.spriteatlas
-    placeholderPath: 
-    useBlurPlaceholder: 0
-    width: 0
-    height: 0
-    rtMem: 0
-    abSize: 0
-    refs:
-    - 2
-    - res
   - usePlaceholder: 0
     assetPath: Assets/AutoStreamingData/AutoConvert/Music.spriteatlas
     placeholderPath: 
@@ -73,18 +50,6 @@ AutoStreamingSettings:
     rtMem: 0
     abSize: 128188
     refs:
-    - 2
-    - res
-  - usePlaceholder: 0
-    assetPath: Assets/AutoStreamingData/AutoConvert/candy.spriteatlas
-    placeholderPath: 
-    useBlurPlaceholder: 0
-    width: 0
-    height: 0
-    rtMem: 0
-    abSize: 0
-    refs:
-    - 2
     - res
   - usePlaceholder: 0
     assetPath: Assets/AutoStreamingData/AutoConvert/comic.spriteatlas
@@ -120,29 +85,7 @@ AutoStreamingSettings:
     - 2
     - res
   - usePlaceholder: 0
-    assetPath: Assets/AutoStreamingData/AutoConvert/popcorn.spriteatlas
-    placeholderPath: 
-    useBlurPlaceholder: 0
-    width: 0
-    height: 0
-    rtMem: 0
-    abSize: 0
-    refs:
-    - 2
-    - res
-  - usePlaceholder: 0
     assetPath: Assets/AutoStreamingData/AutoConvert/rainbow.spriteatlas
-    placeholderPath: 
-    useBlurPlaceholder: 0
-    width: 0
-    height: 0
-    rtMem: 0
-    abSize: 0
-    refs:
-    - 2
-    - res
-  - usePlaceholder: 0
-    assetPath: Assets/AutoStreamingData/AutoConvert/toybox.spriteatlas
     placeholderPath: 
     useBlurPlaceholder: 0
     width: 0
@@ -172,7 +115,6 @@ AutoStreamingSettings:
     rtMem: 1051560
     abSize: 68678
     refs:
-    - 2
     - res
   - usePlaceholder: 1
     assetPath: Assets/Graphics/Logo/GIU_fall_logo_en.png
@@ -182,6 +124,17 @@ AutoStreamingSettings:
     height: 379
     rtMem: 1303760
     abSize: 65703
+    refs:
+    - 2
+    - res
+  - usePlaceholder: 0
+    assetPath: Assets/Graphics/Logo/Giu_fall_logo.png
+    placeholderPath: 
+    useBlurPlaceholder: 0
+    width: 288
+    height: 135
+    rtMem: 155520
+    abSize: 0
     refs:
     - 2
     - res
@@ -196,24 +149,13 @@ AutoStreamingSettings:
     refs:
     - 2
     - res
-  - usePlaceholder: 1
-    assetPath: Assets/Graphics/Save desktop2.png
-    placeholderPath: Assets/AutoStreamingData/Placeholders/Assets/Graphics/Save desktop2.png
+  - usePlaceholder: 0
+    assetPath: Assets/Graphics/Save desktop1.png
+    placeholderPath: 
     useBlurPlaceholder: 0
     width: 196
     height: 169
     rtMem: 132496
-    abSize: 7375
-    refs:
-    - 2
-    - res
-  - usePlaceholder: 0
-    assetPath: Assets/Graphics/SaveDesktop1.png
-    placeholderPath: 
-    useBlurPlaceholder: 0
-    width: 149
-    height: 115
-    rtMem: 68540
     abSize: 0
     refs:
     - 2
@@ -222,21 +164,10 @@ AutoStreamingSettings:
     assetPath: Assets/Graphics/SignIn.png
     placeholderPath: 
     useBlurPlaceholder: 0
-    width: 149
-    height: 115
-    rtMem: 68540
-    abSize: 0
-    refs:
-    - 2
-    - res
-  - usePlaceholder: 1
-    assetPath: Assets/Graphics/SignIn_glow.png
-    placeholderPath: Assets/AutoStreamingData/Placeholders/Assets/Graphics/SignIn_glow.png
-    useBlurPlaceholder: 0
     width: 196
     height: 169
     rtMem: 132496
-    abSize: 7569
+    abSize: 0
     refs:
     - 2
     - res
@@ -498,14 +429,14 @@ AutoStreamingSettings:
     refs:
     - 2
     - res
-  - usePlaceholder: 0
+  - usePlaceholder: 1
     assetPath: Assets/Graphics/turntableIcon.png
-    placeholderPath: 
+    placeholderPath: Assets/AutoStreamingData/Placeholders/Assets/Graphics/turntableIcon.png
     useBlurPlaceholder: 0
-    width: 128
-    height: 128
-    rtMem: 16384
-    abSize: 0
+    width: 196
+    height: 169
+    rtMem: 132496
+    abSize: 7085
     refs:
     - 2
     - res
@@ -1512,18 +1443,6 @@ AutoStreamingSettings:
     - res
   mMeshes:
   - onDemandDownload: 0
-    assetPath: Assets/Graphics/Meshes/coin.FBX:coin
-    localFileId: 2159703810824169821
-    rtMem: 2880
-    refs:
-    - 2
-  - onDemandDownload: 0
-    assetPath: Assets/Graphics/Meshes/booster_item.FBX:booster_item
-    localFileId: 349662889544909139
-    rtMem: 9504
-    refs:
-    - 2
-  - onDemandDownload: 0
     assetPath: Assets/Graphics/Meshes/Platform_v4.FBX:platform_lod2_glass2
     localFileId: -7532318658631224969
     rtMem: 8352
@@ -1632,10 +1551,22 @@ AutoStreamingSettings:
     refs:
     - 2
     - res
+  - onDemandDownload: 0
+    assetPath: Assets/Graphics/Meshes/coin.FBX:coin
+    localFileId: 2159703810824169821
+    rtMem: 2880
+    refs:
+    - 2
+  - onDemandDownload: 0
+    assetPath: Assets/Graphics/Meshes/booster_item.FBX:booster_item
+    localFileId: 349662889544909139
+    rtMem: 9504
+    refs:
+    - 2
   mConfigCCD:
     useCCD: 1
-    cosKey: f1c53529bbd9d281f4f39637c4671e15
-    projectGuid: 4a511d87-8f0f-471e-b57c-bd4f29ced55c
-    bucketUuid: 83abc24e-44bd-4296-bcc7-082966b440e9
-    bucketName: giveitupfall
+    cosKey: d6ad8360ab5026aecf44e67123c7e49f
+    projectGuid: b4798610-c145-4b39-9e9d-f19d61f4829c
+    bucketUuid: 138e8ae8-8933-46cd-8ff5-2872ed92a8ce
+    bucketName: giu-fall
     badgeName: 02
