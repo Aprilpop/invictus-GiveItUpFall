@@ -39,6 +39,7 @@ public class InGame : Menu
     [SerializeField] Text restartText;
 
     [SerializeField] Text levelBonusText;
+    [SerializeField] Text currentBonusText;
 
     [SerializeField]
     GameObject winParticles;
@@ -77,11 +78,12 @@ public class InGame : Menu
     bool secondChanceAvailable = true;
 
     [SerializeField] Button testWinButton;
-
+    [SerializeField] Button tripleAccessButton;
+    [SerializeField] Button nextLevel;
     private void Awake()
     {
         shareButton.onClick.AddListener(Share);
-
+        nextLevel.onClick.AddListener(LoadNextLevel);
         cameraHolder = Camera.main.GetComponentInParent<CameraFollow>().gameObject.transform;
 
         reviveButton.onClick.AddListener(()=>{
@@ -89,6 +91,7 @@ public class InGame : Menu
             PluginMercury.Instance.ActiveRewardVideo();
         });
         nextLevelButton.onClick.AddListener(NextLevelVideo);
+        tripleAccessButton.onClick.AddListener(TripleAccess);
         /*secondChanceButton.onClick.AddListener(() => {
             EventDispatcher.Instance.AddEventListener(EventKey.AdShowSuccessCallBack, OnVideoPlayOver);
             PluginMercury.Instance.ActiveRewardVideo();
@@ -113,6 +116,32 @@ public class InGame : Menu
 //#else
             debugBoost.gameObject.SetActive(false);
 //#endif
+    }
+
+    private void LoadNextLevel()
+    {
+        backGroundObject.SetActive(false);
+        winParticles.SetActive(false);
+        completed.SetActive(false);
+
+        if (ProfileManager.Instance.levelnumber % 5 == 0)
+            GameLogic.Instance.OnWin();
+        else
+            RewardProgress();
+        Debug.LogError("ÏÂÒ»¹Ø");
+    }
+
+    private void TripleAccess()
+    {
+        EventDispatcher.Instance.AddEventListener(EventKey.AdShowSuccessCallBack, OnTripleAccess);
+        PluginMercury.Instance.ActiveRewardVideo();
+    }
+
+    private void OnTripleAccess(string msg)
+    {
+        int completeBonus = (ProfileManager.Instance.levelnumber * 10) / 3;
+        ProfileManager.Instance.Coin += (completeBonus * 2);
+        EventDispatcher.Instance.RemoveEventListener(EventKey.AdShowSuccessCallBack, OnTripleAccess);
     }
 
     protected override void OnShow(ActivateParams activateParams)
@@ -340,7 +369,8 @@ public class InGame : Menu
         winParticles.SetActive(true);
         int completeBonus = (ProfileManager.Instance.levelnumber * 10) / 3;
         completedText.text = "Level " + ProfileManager.Instance.levelnumber + " completed!";
-        levelBonusText.text = "+" + completeBonus;
+        levelBonusText.text = "+" + completeBonus * 2;
+        currentBonusText.text = "+" + completeBonus;
         ProfileManager.Instance.Coin += completeBonus;
         ProfileManager.Instance.Save();
         completed.SetActive(true);
@@ -351,7 +381,7 @@ public class InGame : Menu
         //GameAnalyticsManager.LogProgressionEvent(GAProgressionStatus.Complete, Application.version, ProfileManager.Instance.levelnumber.ToString("00000"), ProfileManager.Instance.Score);
         #endregion
 
-        StartCoroutine(WaitAfterWin());
+       // StartCoroutine(WaitAfterWin());
     }
 
     IEnumerator WaitAfterWin()
