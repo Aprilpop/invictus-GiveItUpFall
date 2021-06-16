@@ -246,7 +246,7 @@ public class CharacterSelection : Menu
         randomMusicPrice.text = ProfileManager.Instance.randomMusicPrice.ToString();
 
         coin.text = ProfileManager.Instance.Coin.ToString();
-        coinForVideo.text = "+" + ProfileManager.Instance.coinForVideo.ToString();
+        coinForVideo.text = "+" + 100/*ProfileManager.Instance.coinForVideo.ToString()*/;
 
         for (int i = 0; i < ProfileManager.Instance.Blobs.Length; i++)
         {
@@ -709,7 +709,7 @@ public class CharacterSelection : Menu
     }
     void OnVideoPlayOverCallBacks(string msg)
     {
-        ProfileManager.Instance.Coin += ProfileManager.Instance.coinForVideo;
+        ProfileManager.Instance.Coin += 100/*ProfileManager.Instance.coinForVideo*/;
         coin.text = ProfileManager.Instance.Coin.ToString();
         EventDispatcher.Instance.RemoveEventListener(EventKey.AdShowSuccessCallBack, OnVideoPlayOverCallBacks);
     }
