@@ -54,7 +54,7 @@ public class MainMenu : Menu
 
         if ((int)StarkSDKSpace.StarkSDK.s_ContainerEnv.m_HostEnum == 2 || (int)StarkSDKSpace.StarkSDK.s_ContainerEnv.m_HostEnum == 4)
         {
-            tiktokButton.gameObject.SetActive(true);
+            tiktokButton.gameObject.SetActive(false);
         }
         else tiktokButton.gameObject.SetActive(false);
 
