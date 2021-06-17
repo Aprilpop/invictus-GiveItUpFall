@@ -178,8 +178,6 @@ public class SoundManager : MonoBehaviour {
 	{
 		SfxContainer container = LookupClip(clipName);
 
-
-
 		if (container != null)
 		{
 			if(container.MaxCount > 0)
@@ -235,21 +233,31 @@ public class SoundManager : MonoBehaviour {
 
 		if (unUsed.Count <= 0)
 		{
-			if (SoundObjectPrefab == null)
+			Transform[] child = new Transform[transform.childCount];
+
+			if (child.Length <= 0)
 			{
-				go = new GameObject("Audio: " + clipName);
-				go.transform.SetParent(this.transform);
-				SoundObject = go.AddComponent<SoundObject>();
-				SoundObject.source = go.AddComponent<AudioSource>();
+				if (SoundObjectPrefab == null)
+				{
+					go = new GameObject("Audio: " + clipName);
+					go.transform.SetParent(this.transform);
+					SoundObject = go.AddComponent<SoundObject>();
+					SoundObject.source = go.AddComponent<AudioSource>();
+				}
+				else
+				{
+					go = Instantiate(SoundObjectPrefab);
+					go.transform.SetParent(this.transform);
+					go.name = "SoundObject";
+					SoundObject = go.GetComponent<SoundObject>();
+					SoundObject.source = go.GetComponent<AudioSource>();
+				}
 			}
 			else
 			{
-				go = Instantiate(SoundObjectPrefab);
-				go.transform.SetParent(this.transform);
-				SoundObject = go.GetComponent<SoundObject>();
-				SoundObject.source = go.GetComponent<AudioSource>();
+				SoundObject = transform.Find("SoundObject").GetComponent<SoundObject>();
+				SoundObject.source = transform.Find("SoundObject").GetComponent<AudioSource>();
 			}
-
 		}
 		else
 		{
@@ -301,4 +309,8 @@ public class SoundManager : MonoBehaviour {
 		}
 	}
 
+	public void UnuseSFX(bool isEnable)
+	{
+		this.gameObject.SetActive(isEnable);
+	}
 }

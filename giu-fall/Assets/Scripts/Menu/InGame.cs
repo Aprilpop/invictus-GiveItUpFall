@@ -80,9 +80,11 @@ public class InGame : Menu
     [SerializeField] Button testWinButton;
     [SerializeField] Button tripleAccessButton;
     [SerializeField] Button nextLevel;
+    [SerializeField] Button share;
     private void Awake()
     {
         shareButton.onClick.AddListener(Share);
+        share.onClick.AddListener(CompletedShare);
         nextLevel.onClick.AddListener(LoadNextLevel);
         cameraHolder = Camera.main.GetComponentInParent<CameraFollow>().gameObject.transform;
 
@@ -128,7 +130,7 @@ public class InGame : Menu
             GameLogic.Instance.OnWin();
         else
             RewardProgress();
-        Debug.LogError("下一关");
+        //Debug.LogError("下一关");
     }
 
     private void TripleAccess()
@@ -139,6 +141,12 @@ public class InGame : Menu
 
     private void OnTripleAccess(string msg)
     {
+        /*tripleAccessButton.interactable = false;
+        Color color = tripleAccessButton.GetComponent<Image>().color;
+        color.a = 0.2f;
+        tripleAccessButton.GetComponent<Image>().color = color;*/
+        ChangeState(tripleAccessButton, false, 0.2f);
+
         int completeBonus = (ProfileManager.Instance.levelnumber * 10) / 3;
         ProfileManager.Instance.Coin += (completeBonus * 2);
         EventDispatcher.Instance.RemoveEventListener(EventKey.AdShowSuccessCallBack, OnTripleAccess);
@@ -381,7 +389,28 @@ public class InGame : Menu
         //GameAnalyticsManager.LogProgressionEvent(GAProgressionStatus.Complete, Application.version, ProfileManager.Instance.levelnumber.ToString("00000"), ProfileManager.Instance.Score);
         #endregion
 
-       // StartCoroutine(WaitAfterWin());
+        //ChangeState(nextLevel, true, 1);
+        ChangeState(tripleAccessButton, true, 1);
+        ChangeState(share, true, 1);
+        
+        /* tripleAccessButton.interactable = true;
+         Color color = tripleAccessButton.GetComponent<Image>().color;
+         color.a = 1f;
+         tripleAccessButton.GetComponent<Image>().color = color;*/
+        /* nextLevel.interactable = true;
+         Color nextLevelColor = nextLevel.GetComponent<Image>().color;
+         nextLevelColor.a = 1f;
+         nextLevel.GetComponent<Image>().color = nextLevelColor;*/
+
+        // StartCoroutine(WaitAfterWin());
+    }
+
+    private void ChangeState(Button name,bool isState,float diaph)
+    {
+        name.interactable = isState;
+        Color color = name.GetComponent<Image>().color;
+        color.a = diaph;
+        name.GetComponent<Image>().color = color;
     }
 
     IEnumerator WaitAfterWin()
@@ -563,5 +592,17 @@ public class InGame : Menu
     void ShareReward()
     { 
         ProfileManager.Instance.Coin += 300;
+    }
+
+    private void CompletedShare()
+    {
+        ByteDanceSDKManager.Instance.onShareResult = OnShareReward;
+        ByteDanceSDKManager.Instance.Share();
+    }
+
+    void OnShareReward()
+    {
+        ProfileManager.Instance.Coin += 300;
+        ChangeState(share, false, 0.2f);
     }
 }

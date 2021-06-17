@@ -470,7 +470,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1135671789
 RectTransform:
   m_ObjectHideFlags: 0
@@ -8075,18 +8075,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 5928271697694352421}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 3238636581486007901}
-        m_MethodName: Share
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!1 &1603399031339225831
 GameObject:
   m_ObjectHideFlags: 0
@@ -22481,6 +22470,7 @@ MonoBehaviour:
   testWinButton: {fileID: 3521262398196889232}
   tripleAccessButton: {fileID: 3895037501684699857}
   nextLevel: {fileID: 1292855304778255813}
+  share: {fileID: 7674932959820038229}
 --- !u!95 &4339759627510203351
 Animator:
   serializedVersion: 3
@@ -27326,7 +27316,7 @@ RectTransform:
   m_AnchorMin: {x: 1, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
   m_AnchoredPosition: {x: 137.00003, y: 15.300186}
-  m_SizeDelta: {x: 0, y: 80}
+  m_SizeDelta: {x: 44.61769, y: 80}
   m_Pivot: {x: 1, y: 0.5}
 --- !u!222 &5064167038897579785
 CanvasRenderer:
@@ -44288,7 +44278,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &4502138965143789718
 RectTransform:
   m_ObjectHideFlags: 0
@@ -53278,7 +53268,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &8136898051745213169
 RectTransform:
   m_ObjectHideFlags: 0
@@ -64138,7 +64128,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &2960204352544018888
 RectTransform:
   m_ObjectHideFlags: 0

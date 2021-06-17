@@ -187,11 +187,13 @@ public class Options : Menu
         {
             soundOff.enabled = true;
             ProfileManager.Instance.Sound = false;
+            SoundManager.Instance.UnuseSFX(false);
         }
         else
         {
             soundOff.enabled = false;
             ProfileManager.Instance.Sound = true;
+            SoundManager.Instance.UnuseSFX(true);
         }
         ProfileManager.Instance.Save();
     }

@@ -68,6 +68,7 @@ public class MainMenu : Menu
         testTipText.SetActive(PlugingSingmaan.Instance.isDebugMode);
 
         ByteDanceSDKManager.Instance.Initialize();
+        SoundManager.Instance.UnuseSFX(ProfileManager.Instance.Sound);
     }
 
     void OpenShopPanel()
