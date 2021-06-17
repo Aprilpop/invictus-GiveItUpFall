@@ -408,9 +408,9 @@ public class InGame : Menu
     private void ChangeState(Button name,bool isState,float diaph)
     {
         name.interactable = isState;
-        Color color = name.GetComponent<Image>().color;
+        /*Color color = name.GetComponent<Image>().color;
         color.a = diaph;
-        name.GetComponent<Image>().color = color;
+        name.GetComponent<Image>().color = color;*/
     }
 
     IEnumerator WaitAfterWin()
