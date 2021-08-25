@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
   "displayName": "ByteGame Develop Tools",
   "name": "com.bytedance.bgdt",
@@ -11,4 +12,19 @@
       "url": "https://bytedance.feishu.cn/docs/doccn0wCFwoWGt3hIEVSntpymn5"
     }
   ]
+=======
+{
+  "displayName": "ByteGame Develop Tools",
+  "name": "com.bytedance.bgdt",
+  "version": "2.0.148",
+  "description": "ByteGame Develop Tools",
+  "keywords": [],
+  "category": "Libraries",
+  "links": [
+    {
+      "label": "Document | 文档",
+      "url": "https://bytedance.feishu.cn/docs/doccn0wCFwoWGt3hIEVSntpymn5"
+    }
+  ]
+>>>>>>> 106c5de74f249ec98dcf6c650d3693b4361fa175
 }
