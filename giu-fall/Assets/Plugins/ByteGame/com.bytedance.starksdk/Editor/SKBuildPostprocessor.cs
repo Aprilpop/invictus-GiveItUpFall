@@ -21,7 +21,7 @@ public class SKBuildPostprocessor : IPreprocessBuildWithReport
     {
 #if UNITY_2019_2_OR_NEWER
         Debug.Log("Set EditorUserBuildSettings.androidCreateSymbolsZip : true");
-        EditorUserBuildSettings.androidCreateSymbolsZip = true;
+        //EditorUserBuildSettings.androidCreateSymbolsZip = true;
 #endif
     }
 
@@ -30,7 +30,7 @@ public class SKBuildPostprocessor : IPreprocessBuildWithReport
     {
         Debug.Log("OnPostprocessBuild : " + pathToBuiltProject + "   " + target);
 #if UNITY_2019_2_OR_NEWER
-        if (EditorUserBuildSettings.androidCreateSymbolsZip == true)
+        if (/*EditorUserBuildSettings.androidCreateSymbolsZip == */true)
         {
             Debug.Log("use EditorUserBuildSettings.androidCreateSymbolsZip to create symbols zip");
         }

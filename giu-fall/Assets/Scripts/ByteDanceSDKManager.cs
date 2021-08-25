@@ -73,6 +73,7 @@ public class ByteDanceSDKManager
             StarkSDK.API.GetStarkGameRecorder().ShareVideoWithTitleTopics(ShareReward, null, null, "", topics);
         }
     }
+
     #endregion
 
     #region ads
